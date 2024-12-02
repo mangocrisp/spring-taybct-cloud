@@ -1,0 +1,9 @@
+server:
+  port: 9000
+dubbo:
+  protocol:
+    # 固定 Dubbo 端口
+    port: 29000
+  application:
+    # Dubbo的在线运维命令端口
+    qos-port: 39000

@@ -1,9 +1,6 @@
 # swagger 接口文档
 swagger:
   title: 流程中心
-# 服务器配置
-server:
-  port: 8103
 # Spring
 spring:
   main:

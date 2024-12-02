@@ -1,6 +1,3 @@
-# 服务器配置
-server:
-  port: 8104
 # swagger 接口文档
 swagger:
   title: 全文搜索
