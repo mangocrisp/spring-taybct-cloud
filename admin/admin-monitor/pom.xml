@@ -100,8 +100,8 @@
                             <target>
                                 <!--suppress UnresolvedMavenProperty -->
                                 <copy overwrite="true"
-                                      tofile="${maven.multiModuleProjectDirectory}/target/${project.artifactId}.jar"
-                                      file="${project.build.directory}/${project.artifactId}.jar"/>
+                                      tofile="${maven.multiModuleProjectDirectory}/target/${project.build.finalName}.jar"
+                                      file="${project.build.directory}/${project.build.finalName}.jar"/>
                             </target>
                         </configuration>
                     </execution>
