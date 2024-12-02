@@ -1,4 +1,4 @@
-@echo off
+#!/bin/bash
 ./run-auth.sh & 
 ./run-gateway.sh & 
 ./run-module-system.sh & 
