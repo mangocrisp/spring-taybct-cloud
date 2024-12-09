@@ -1,2 +1,1 @@
-#!/bin/bash
 ./run.sh auth-3.2.0-alpha.1.jar
