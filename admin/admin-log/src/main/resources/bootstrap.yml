@@ -1,3 +1,5 @@
+swagger:
+  title: 日志管理模块
 # Spring
 spring:
   main:
@@ -58,6 +60,8 @@ spring:
             group: ${spring.cloud.nacos.config.group}
             refresh: true
 taybct:
+  message:
+    enable: false
   config-prefix: taybct
   tenant:
     tenant-tables:

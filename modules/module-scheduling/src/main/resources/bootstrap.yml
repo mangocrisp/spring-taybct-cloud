@@ -1,3 +1,5 @@
+swagger:
+  title: 任务调度模块
 # Spring
 spring:
   main:
