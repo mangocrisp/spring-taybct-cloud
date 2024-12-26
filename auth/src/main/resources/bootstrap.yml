@@ -71,52 +71,7 @@ taybct:
         alias: jwt
         password: taybct
         expire-check: true
-  # 安全配置
   secure:
-    # 不校验白名单
-    ignore:
-      urls:
-        - "/oauth/logout"
-        - "/error"
-        # 静态资源
-        - "/csrf"
-        - "/error"
-        - "/static/**"
-        - "/locate/**"
-        - "/favicon.ico"
-        # 文件
-        - "/admin-file/statics/**"
-        # Monitor
-        - "/assets/**"
-        - "/variables.css"
-        - "/login"
-        - "/actuator/**"
-        - "/instances/**"
-        # 验证码
-        - "/captcha"
-        - "/enableCaptcha"
-        # 允许获取公钥接口的访问
-        - "/rsa/publicKey"
-        - "/sm2/publicKey"
-        # swagger
-        - "/*/v3/api-docs"
-        - "/*/v3/api-docs/default"
-        - "/v3/**"
-        - "/doc.html"
-        - "/swagger-ui/**"
-        - "/swagger-resources"
-        - "/swagger-resources/**"
-        - "/webjars/**"
-        - "/swagger-ui.html"
-        # 注册客户端
-        - "/registeredClient"
-      captcha-grant-type:
-        - "refresh_token" # 刷新令牌不需要验证码
-    captcha-urls: # 需要验证码的请求
-      - "/oauth/login"
-    captcha-authorizations:
-      - "Basic dGF5YmN0X3BjOmUxMGFkYzM5NDliYTU5YWJiZTU2ZTA1N2YyMGY4ODNl"
-    allow-when-no-match: true
     auth:
       client:
         client-id: taybct_pc
