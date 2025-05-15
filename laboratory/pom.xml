@@ -14,6 +14,8 @@
     <modules>
         <module>lab-mock</module>
         <module>lab-flux</module>
+        <module>lab-kafka-provider</module>
+        <module>lab-kafka-consumer</module>
     </modules>
     <packaging>pom</packaging>
     <description>实验室模块</description>
