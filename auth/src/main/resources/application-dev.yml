@@ -16,7 +16,7 @@ taybct:
         redirect: true
         # 登录页面
         redirect-login-page: https://127.0.0.1/#/login
-        # 重定向到登录页面的api
+        # 登录页面登录成功之后用于获取 code 的接口地址
         params-redirect-api: https://127.0.0.1/api/auth/oauth/authorize
-        # 重定向到登录页面的api参数编码方式
+        # 前端获取参数需要加密的 url 加密类型
         params-redirect-api-encode-type: uri_component
