@@ -1,5 +1,6 @@
 package io.github.mangocrisp.spring.taybct.common.exception;
 
+import cn.hutool.core.collection.CollectionUtil;
 import io.github.mangocrisp.spring.taybct.tool.core.exception.handler.IGlobalExceptionReporter;
 import io.github.mangocrisp.spring.taybct.tool.core.exception.handler.IGlobalPrinter;
 import io.github.mangocrisp.spring.taybct.tool.core.result.R;
@@ -8,7 +9,9 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.MessageSourceResolvable;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
@@ -17,9 +20,12 @@ import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.method.annotation.HandlerMethodValidationException;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 /**
  * 全局异常处理，处理可预见的异常
@@ -79,6 +85,23 @@ public class GlobalRestExceptionTranslator {
             return R.fail(ResultCode.VALIDATE_ERROR.getCode(), message);
         }
         return R.fail(ResultCode.VALIDATE_ERROR);
+    }
+
+    @ExceptionHandler(HandlerMethodValidationException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public R<?> handleError(HandlerMethodValidationException e) {
+        List<String> messageList = e.getAllErrors().stream()
+                .map(MessageSourceResolvable::getDefaultMessage)
+                .map(s -> "【" + s + "】")
+                .toList();
+        return R.fail(ResultCode.VALIDATE_ERROR.getCode(), "请求参数验证失败：" + CollectionUtil.join(messageList, ","));
+    }
+
+    @ExceptionHandler(HttpMessageNotReadableException.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    public R<?> handleError(HttpMessageNotReadableException e) {
+        return R.fail(ResultCode.ERROR.getCode()
+                , Optional.ofNullable(e.getRootCause()).map(Throwable::getMessage).orElse(e.getMessage()));
     }
 
     /**
