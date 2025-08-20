@@ -12,7 +12,7 @@
  Target Server Version : 150000 (150000)
  File Encoding         : 65001
 
- Date: 02/07/2025 16:09:13
+ Date: 20/08/2025 11:06:20
 */
 
 
@@ -519,14 +519,6 @@ COMMENT ON TABLE "public"."oauth2_authorization" IS '登录管理-记录各个 t
 -- ----------------------------
 -- Records of oauth2_authorization
 -- ----------------------------
-INSERT INTO "public"."oauth2_authorization" VALUES ('8b876235-816c-4bd0-94f1-b9a097349067', '1', 'root', 'taybct', 'all', '{"@class":"java.util.Collections$UnmodifiableMap"}', NULL, NULL, NULL, NULL, NULL, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImZhOTk2OWY2YTM2MzQ1N2ViNDJmZjYxNDI1MGNlNGMwIiwia2lkIjoiMDE3MzA4ZGZiZjc3NDI5ZWEwYmUzN2E1YTlkMmNjZWYifQ.eyJ1aWQiOiIxIiwibmJmIjoxNzUxMzYyMjE2LCJncmFudF90eXBlIjoidGF5YmN0IiwidXNlcl9uYW1lIjoicm9vdCIsInNjb3BlIjpbImFsbCJdLCJhdG0iOiJ1c2VybmFtZSIsImV4cCI6MTc1MTM2MjIyNiwiaWF0IjoxNzUxMzYyMjE2LCJqdGkiOiI1MmM4YmRhZC1mNWIwLTQ4MTMtOTBmZC1lZWI1ZTkyZGZjNDQiLCJjbGllbnRfaWQiOiJ0YXliY3RfcGMiLCJhdXRob3JpdGllcyI6WyIwMDAwMDA6Uk9PVCJdfQ.PwE9-A7ws-QG5_myrHhoj4uYAjuRSg8ViktYafAncURw5nH3nzPPh963EE90GW_JETeKkE_hXAnEzsfgGymdlay_j1FSlLutzv7WRNF6qCQK94uVv4i1lbFzMFntv4d2IkOsc0pYvClfHXOkAQkzJdMatYFcU0Vc6tRqg2wps-uBnQvHE9YreqdHdKT6a2Pq3w5b6-KuAUdZyqBl-ePR_DAWIsoyTcqGtgXXqiXI_zbnoHtYyMhlZxLMm4ec0FwEDk2YuPbXsT1WUAIHC5RcKziWAKZnIWXzfxqy9CRLGtwWUSIDNCpD8R0abirVsuNSKstd9f3hPqbZPWn8NYgi9Q', '2025-07-01 17:30:16.14674', '2025-07-01 17:30:26.14674', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.claims":{"@class":"java.util.Collections$UnmodifiableMap","uid":"1","nbf":["java.time.Instant",1751362216.146740200],"grant_type":"taybct","user_name":"root","scope":["java.util.Collections$UnmodifiableSet",["all"]],"atm":"username","exp":["java.time.Instant",1751362226.146740200],"iat":["java.time.Instant",1751362216.146740200],"jti":"52c8bdad-f5b0-4813-90fd-eeb5e92dfc44","client_id":"taybct_pc","authorities":["java.util.ArrayList",["000000:ROOT"]]},"metadata.token.invalidated":false}', 'Bearer', 'all', NULL, NULL, NULL, NULL, '_PaXIa_xWas6CCb1PnNJsKqowvIJ83_9bzBFfuDecDnuzkzEk21YHxTGKCdh0ztFDND_j40Gcjw03mqxHgZMMsI4hFoKZVCHWESCIdx1VOEBCx75SWANiAGOsW6b4rMC', '2025-07-01 17:30:16.155478', '2025-07-02 17:30:16.155478', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.invalidated":false}', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO "public"."oauth2_authorization" VALUES ('5fa1f97e-7d5b-43f6-b7fc-f6f3647328bc', '1', 'root', 'taybct', 'all', '{"@class":"java.util.Collections$UnmodifiableMap"}', NULL, NULL, NULL, NULL, NULL, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjcxY2M3NGFiNDEzNzQzZWM4NGFiYWFjYTFmMzZmYWZmIiwia2lkIjoiMDE3MzA4ZGZiZjc3NDI5ZWEwYmUzN2E1YTlkMmNjZWYifQ.eyJ1aWQiOiIxIiwibmJmIjoxNzUxMzYzMjM3LCJncmFudF90eXBlIjoidGF5YmN0IiwidXNlcl9uYW1lIjoicm9vdCIsInNjb3BlIjpbImFsbCJdLCJhdG0iOiJ1c2VybmFtZSIsImV4cCI6MTc1MTM2MzI0NywiaWF0IjoxNzUxMzYzMjM3LCJqdGkiOiI0OGVhZjA3MS01MDQ0LTRlNmItYmRkMi0wMDM3ZjE4NTBmNTYiLCJjbGllbnRfaWQiOiJ0YXliY3RfcGMiLCJhdXRob3JpdGllcyI6WyIwMDAwMDA6Uk9PVCJdfQ.kNVOF-7YwQ0T9Fkcnppal-_Hw8BY6XGoXfQZiosNMypSMMJ10Add11Z8lkx83FCUTBY3v570FysJHMvp0sg9g-XkUCrP6cGNN89_7I9Ixn83abl-6oX5JVmv1I5lnYojnTrwnzry_ipPIR8SCqATcxFUuUbF89jMuK6ew2Y1Or1JSeDvsrME6eTFnamEwRXRHJKE-PK1x0kwgC1Znpx2i-iXNgmb5KlafXZjZfDQJhHRhTYDyaUgpJ9DcDpxELvUh-Vozonm6XUctctuXNVGqZWGauHMoEp13Uq_YpyOgi4T-i5stm0eWNm-tUc-_dPrB5DYCSwkSjKh2G0_-2gx8A', '2025-07-01 17:47:17.83902', '2025-07-01 17:47:27.83902', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.claims":{"@class":"java.util.Collections$UnmodifiableMap","uid":"1","nbf":["java.time.Instant",1751363237.839020400],"grant_type":"taybct","user_name":"root","scope":["java.util.Collections$UnmodifiableSet",["all"]],"atm":"username","exp":["java.time.Instant",1751363247.839020400],"iat":["java.time.Instant",1751363237.839020400],"jti":"48eaf071-5044-4e6b-bdd2-0037f1850f56","client_id":"taybct_pc","authorities":["java.util.ArrayList",["000000:ROOT"]]},"metadata.token.invalidated":false}', 'Bearer', 'all', NULL, NULL, NULL, NULL, 'Uk-5zm1qNBLSuemoWfpNoQw8JVviwElQi17PHAbn4M_fwgV7gZOII8XZVfzZvF80bc5w6mNTNfUq66ZJPxiPaT2lV_aFLQnI8Zpi1jS2YNSl_M_X9yQ_jtBBMCJgRmVL', '2025-07-01 17:47:17.852144', '2025-07-02 17:47:17.852144', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.invalidated":false}', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO "public"."oauth2_authorization" VALUES ('56fd6a40-fec6-45ac-9f8a-aa5a3e8e4fc6', '1', 'root', 'taybct', 'all', '{"@class":"java.util.Collections$UnmodifiableMap"}', NULL, NULL, NULL, NULL, NULL, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImFiZGYwOTk1NzBiZTQ2Yjk4Zjc5MjY0NmJlYzRkYzA4Iiwia2lkIjoiMDE3MzA4ZGZiZjc3NDI5ZWEwYmUzN2E1YTlkMmNjZWYifQ.eyJ1aWQiOiIxIiwibmJmIjoxNzUxMzYzMjg4LCJncmFudF90eXBlIjoidGF5YmN0IiwidXNlcl9uYW1lIjoicm9vdCIsInNjb3BlIjpbImFsbCJdLCJhdG0iOiJ1c2VybmFtZSIsImV4cCI6MTc1MTM2MzI5OCwiaWF0IjoxNzUxMzYzMjg4LCJqdGkiOiIxMDYyY2YxYS0yZmZhLTQxYzktOWNjNi1lZDdiNWYwYTU0MmYiLCJjbGllbnRfaWQiOiJ0YXliY3RfcGMiLCJhdXRob3JpdGllcyI6WyIwMDAwMDA6Uk9PVCJdfQ.acK0eLuQxwYBq343Zt0XCy7PLUpvNgHe7BbRfrDrhO9r1E6IRziiVe5PuVZGFIxg8XAtz_lQbceBzdQyg9M6MNdboAlgEJEMR84tCp97H4Yksn5OLVgoERLRTA1BwVgKBeEhOXNu6-wVXj69t9QAMsXtNDWBynuV7eSSe1Mh7EntDYn0-N9jv_F_iLZTV-BzO1xNlJOsahWzPw5kvmBlnon4-sXphvm4JANLKW93-TxXOCFiu4-CUaVg0jiKRk4aCmdIVDL2LJVZfkSspECqCj0gpVNY6nl95osFYcNF1wls2elKjfTdO8fBkqpiq5HU0gSltxHrYGLnOLs4MK8Mjw', '2025-07-01 17:48:08.574224', '2025-07-01 17:48:18.574224', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.claims":{"@class":"java.util.Collections$UnmodifiableMap","uid":"1","nbf":["java.time.Instant",1751363288.574223900],"grant_type":"taybct","user_name":"root","scope":["java.util.Collections$UnmodifiableSet",["all"]],"atm":"username","exp":["java.time.Instant",1751363298.574223900],"iat":["java.time.Instant",1751363288.574223900],"jti":"1062cf1a-2ffa-41c9-9cc6-ed7b5f0a542f","client_id":"taybct_pc","authorities":["java.util.ArrayList",["000000:ROOT"]]},"metadata.token.invalidated":false}', 'Bearer', 'all', NULL, NULL, NULL, NULL, 'aGqTpKWtZ4vX0ucBAr5ClyQ7B3tgA_5aVifknMNymd3eRdVTwzwZmNh197ZXJcUO4twNHYMVgoKyk6JocbJvJt8laRZATU1-qmzGHAUDs1gBdeAM0fJ6adTvHn1Z5hoQ', '2025-07-01 17:48:08.583076', '2025-07-02 17:48:08.583076', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.invalidated":false}', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO "public"."oauth2_authorization" VALUES ('48774d6d-ec8b-45f9-b35b-4f4375368db2', '1', 'root', 'taybct', 'all', '{"@class":"java.util.Collections$UnmodifiableMap"}', NULL, NULL, NULL, NULL, NULL, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjAxZDMzNzE3YTg4MjQxODE5YWQ1MDc1OTA1ODczNTBlIiwia2lkIjoiMDE3MzA4ZGZiZjc3NDI5ZWEwYmUzN2E1YTlkMmNjZWYifQ.eyJ1aWQiOiIxIiwibmJmIjoxNzUxMzYzNTU3LCJncmFudF90eXBlIjoidGF5YmN0IiwidXNlcl9uYW1lIjoicm9vdCIsInNjb3BlIjpbImFsbCJdLCJhdG0iOiJ1c2VybmFtZSIsImV4cCI6MTc1MTM2MzU2NywiaWF0IjoxNzUxMzYzNTU3LCJqdGkiOiI1MzIzNGI2Ni0wMWM4LTQxYjctYWFiMC00MWJkNGVmZWZhYTAiLCJjbGllbnRfaWQiOiJ0YXliY3RfcGMiLCJhdXRob3JpdGllcyI6WyIwMDAwMDA6Uk9PVCJdfQ.nqjwLo_9gnrrFqS72SxpE4n2a8EgqF5NxZxORNmbumIzLtTPg9WEDvzGIv7rhuYUb2RwZ5gG7TuxGIcpGK5u0hgnfUCicVxoPfVZz79AP7UwvHMpRTB5aaZ0GPpsQya1iazQvSFZdvWFpxceJT6gyvOdC2qq0zdbmMjhvwb5_a3u1Sc__tdCzjADs13EbXsDziNzbW5Zg-bFNKixOJKZWUSb-SOQdTRJof5o21YQTrdfbGS6dlKpKqirutIpaqrMiya9bZhpHmr_FSeOdL_JtP-0ATv_EKbmhyG38GilWMzgxjoX7CGhXUSVgehTaXbsxsjQP8qxYUK0nYGD40lTCw', '2025-07-01 17:52:37.374219', '2025-07-01 17:52:47.374219', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.claims":{"@class":"java.util.Collections$UnmodifiableMap","uid":"1","nbf":["java.time.Instant",1751363557.374218600],"grant_type":"taybct","user_name":"root","scope":["java.util.Collections$UnmodifiableSet",["all"]],"atm":"username","exp":["java.time.Instant",1751363567.374218600],"iat":["java.time.Instant",1751363557.374218600],"jti":"53234b66-01c8-41b7-aab0-41bd4efefaa0","client_id":"taybct_pc","authorities":["java.util.ArrayList",["000000:ROOT"]]},"metadata.token.invalidated":false}', 'Bearer', 'all', NULL, NULL, NULL, NULL, 'iK_MyWLqXX28b8BnANCRM-XXZopfFVVRUxttKHUGy8cHT1Ofj1ZTWhXb4h-8JUDvE_ib1JAmdyB0_WMknIqWl0sBKen2BgLoDmLZfdRMlDb-MpDAE15yw5ENE0Wr_knB', '2025-07-01 17:52:37.383978', '2025-07-02 17:52:37.383978', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.invalidated":false}', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO "public"."oauth2_authorization" VALUES ('9bab8ec2-1f24-4d9c-af6c-51605ece2666', '1', 'root', 'taybct', 'all', '{"@class":"java.util.Collections$UnmodifiableMap"}', NULL, NULL, NULL, NULL, NULL, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImNmMzFkNmY5NjE3YTQ3NGQ4NWVjMWFiMjg3ZDdmYzc5Iiwia2lkIjoiMDE3MzA4ZGZiZjc3NDI5ZWEwYmUzN2E1YTlkMmNjZWYifQ.eyJ1aWQiOiIxIiwibmJmIjoxNzUxMzYzNTgxLCJncmFudF90eXBlIjoidGF5YmN0IiwidXNlcl9uYW1lIjoicm9vdCIsInNjb3BlIjpbImFsbCJdLCJhdG0iOiJ1c2VybmFtZSIsImV4cCI6MTc1MTM2MzU5MSwiaWF0IjoxNzUxMzYzNTgxLCJqdGkiOiIwYWEwOTU4MS1mMzBmLTQ2OGItOWEzNC1lMTE0YmZhMTZmNWYiLCJjbGllbnRfaWQiOiJ0YXliY3RfcGMiLCJhdXRob3JpdGllcyI6WyIwMDAwMDA6Uk9PVCJdfQ.jOlNQg4bZapqegxl2Twf2ZTTiqDuD1SPuehMPY_taG5gCRDV0ONV8LsBnbfvd6e_AeW1ccvH2coNjgYMsa5LMfr79MIMSib2hqdnTneefPFdZWAgK2Q99nReoD9quccyfSA7nhDpZNEE9IhOXZLKDjWO7cfLi2veWMif6LrNG1J1fgxq2uMIjO6h-9BnwmyBBZ4aKIsWYz6M0XZyTev0T41piqDQqkPDvjVrSk47R9wxWKk8pBSTXHkmicQrvTZQV5LU-5w6J5SlVxihuCtnIGRr_jkIGF7LAB8WYO36EH9ciWAA7joA1BAUcxOWlwunpGSW0ceZX31_ocmoPHSqqw', '2025-07-01 17:53:01.417698', '2025-07-01 17:53:11.417698', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.claims":{"@class":"java.util.Collections$UnmodifiableMap","uid":"1","nbf":["java.time.Instant",1751363581.417697500],"grant_type":"taybct","user_name":"root","scope":["java.util.Collections$UnmodifiableSet",["all"]],"atm":"username","exp":["java.time.Instant",1751363591.417697500],"iat":["java.time.Instant",1751363581.417697500],"jti":"0aa09581-f30f-468b-9a34-e114bfa16f5f","client_id":"taybct_pc","authorities":["java.util.ArrayList",["000000:ROOT"]]},"metadata.token.invalidated":false}', 'Bearer', 'all', NULL, NULL, NULL, NULL, 'VdVOopHJp8ZTnMg2C9EUTVI81sW2aXKrzLnxPE-h3RTwc2OmfiWJo_XTwBpj6vO1DUY7KUpzv0ZyLlzQh9qIvuApnkDRP5Rw2thNkKByYzGPyTRv9pScoTexxjOLKMPP', '2025-07-01 17:53:01.428972', '2025-07-02 17:53:01.428972', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.invalidated":false}', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO "public"."oauth2_authorization" VALUES ('518dcf38-0bee-4d94-99cc-8dbe5e5078ba', '1', 'root', 'taybct', 'all', '{"@class":"java.util.Collections$UnmodifiableMap"}', NULL, NULL, NULL, NULL, NULL, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjliODA5ZjVmN2RiZTQzN2E5NWQ4ODc4MDQ1ZTQ5NjY1Iiwia2lkIjoiM2Y1ZTcyMDRhM2Q5NGMzNjlkNWNlNmVhYjBmZWZmN2UifQ.eyJ1aWQiOiIxIiwibmJmIjoxNzUxNDE4NDI0LCJncmFudF90eXBlIjoidGF5YmN0IiwidXNlcl9uYW1lIjoicm9vdCIsInNjb3BlIjpbImFsbCJdLCJhdG0iOiJ1c2VybmFtZSIsImV4cCI6MTc1MTQxODQzNCwiaWF0IjoxNzUxNDE4NDI0LCJqdGkiOiIwMzZlNjlkMC1iODMwLTRlYWQtYWFhNC05MzJiZDUzYTI2NGIiLCJjbGllbnRfaWQiOiJ0YXliY3RfcGMiLCJhdXRob3JpdGllcyI6WyIwMDAwMDA6Uk9PVCJdfQ.dnsha2Z6ensUwURPUbcni5dRktW8qpgsLOlGQmIQJQMlXspIhutzz8eTTpHWeBaIPvgKZQbxPrLAIP7MGB74g7FIsHRcAgdAzbQUF3lRoZDtV0Wvl4apYlJdtlcF4LlGMWR0VlBkKpdEQj1ZIo1OKTBeYRK12aMcOjzLk65-DStX4DQBZRP9iDkO-sFy4w706pJ6zwlzomNLqC1_80FMBYXb0nHehvyXXr5xxkAja5BkTxVAIfQ9sFoDNYFNd1oXkT2e50DRCyrcSD-8_n4M6W4lbXDQzA3w7xCxeRYLjzE0oUP2pb0Janoq1lzUEJzTXDdpeQ5Wc8KuJU_waMUcLQ', '2025-07-02 09:07:04.299181', '2025-07-02 09:07:14.299181', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.claims":{"@class":"java.util.Collections$UnmodifiableMap","uid":"1","nbf":["java.time.Instant",1751418424.299180700],"grant_type":"taybct","user_name":"root","scope":["java.util.Collections$UnmodifiableSet",["all"]],"atm":"username","exp":["java.time.Instant",1751418434.299180700],"iat":["java.time.Instant",1751418424.299180700],"jti":"036e69d0-b830-4ead-aaa4-932bd53a264b","client_id":"taybct_pc","authorities":["java.util.ArrayList",["000000:ROOT"]]},"metadata.token.invalidated":false}', 'Bearer', 'all', NULL, NULL, NULL, NULL, 'NX3OqV5nkvY7fy3t1dG0c8gI1EiFSatVrbPm2iV6M9c0y2fSZLhLiIacTAA-FY9wIRhVYsZsejpLuV84cJ99bIFuPckMT_MGwQdyBJ8vgBMnGd7DbcCpB3ZWQkh-fTiF', '2025-07-02 09:07:04.343693', '2025-07-03 09:07:04.343693', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.invalidated":false}', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO "public"."oauth2_authorization" VALUES ('47ee4ad3-85e8-4e00-8079-78b60c6bcb86', '1', 'root', 'taybct', 'all', '{"@class":"java.util.Collections$UnmodifiableMap"}', NULL, NULL, NULL, NULL, NULL, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjZiODc2NWUzZWQxZDQ0OTI5Y2YyY2E4MjNlZDA0ZDdkIiwia2lkIjoiM2Y1ZTcyMDRhM2Q5NGMzNjlkNWNlNmVhYjBmZWZmN2UifQ.eyJ1aWQiOiIxIiwibmJmIjoxNzUxNDE4NDM5LCJncmFudF90eXBlIjoidGF5YmN0IiwidXNlcl9uYW1lIjoicm9vdCIsInNjb3BlIjpbImFsbCJdLCJhdG0iOiJ1c2VybmFtZSIsImV4cCI6MTc1MTQxODQ0OSwiaWF0IjoxNzUxNDE4NDM5LCJqdGkiOiI5YWIyMWJkMC03YjgxLTQxYWYtOTU4ZS04ZDYzZjlhMjM2ZDEiLCJjbGllbnRfaWQiOiJ0YXliY3RfcGMiLCJhdXRob3JpdGllcyI6WyIwMDAwMDA6Uk9PVCJdfQ.s-3K_XaKBW1orXnT1oad7f8usPnU6do2HSFjuk_kR_Sje2my9bvSduneptbWfuuUXVX3vQLi_P9efD5ajJR1wpxvht5R845UJHBLZ5etqCz59QVmUnd_IMdU0b0VXkZfnLZUPkcazNqDwSiqO6BP52aIp13Q9DKwHTfaJi8okX0Ih8Fi2Hu5R0Sd4O-DqvePmvbg7JLwvukx2xd2ToF4zH8Agk-jeY6mXGWmcej0B2TfC0M_hVzfsfg3atspsNATSmr_uHb_kikfu7WqYauZADVtSEPPVe0evrYwb9IhHxl96ttorJWpjCSpf_d_b6LtCp1vP80ilO-RNDEDWt8rCA', '2025-07-02 09:07:19.499622', '2025-07-02 09:07:29.499622', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.claims":{"@class":"java.util.Collections$UnmodifiableMap","uid":"1","nbf":["java.time.Instant",1751418439.499621500],"grant_type":"taybct","user_name":"root","scope":["java.util.Collections$UnmodifiableSet",["all"]],"atm":"username","exp":["java.time.Instant",1751418449.499621500],"iat":["java.time.Instant",1751418439.499621500],"jti":"9ab21bd0-7b81-41af-958e-8d63f9a236d1","client_id":"taybct_pc","authorities":["java.util.ArrayList",["000000:ROOT"]]},"metadata.token.invalidated":false}', 'Bearer', 'all', NULL, NULL, NULL, NULL, '3Sl4kJCCvU4Vr22fyWJWjb9BC_yYbWTn_3zxoOIjHV0N8jaqm9jjkfkLnPmaiDJ9WKtMUhZiDQTH1ETa346Lp4RuIodn3bfYRNQBjFUYPK9jWbBtHL-x4e8u3amNmUa9', '2025-07-02 09:07:19.507304', '2025-07-03 09:07:19.507304', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.invalidated":false}', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO "public"."oauth2_authorization" VALUES ('e09166de-ece8-496e-bf16-bf9bd68640a8', '1', 'root', 'taybct', 'all', '{"@class":"java.util.Collections$UnmodifiableMap"}', NULL, NULL, NULL, NULL, NULL, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImIxZDkwOGM2Y2E3YTRhNjU4ZmJiMjVlODgyYmRmNjU4Iiwia2lkIjoiOGZkMjk5ZWZhZDRlNDlkZmFlOTY4OTE0MTBiNDVlZWYifQ.eyJ1aWQiOiIxIiwibmJmIjoxNzUxNDQyODkwLCJncmFudF90eXBlIjoidGF5YmN0IiwidXNlcl9uYW1lIjoicm9vdCIsInNjb3BlIjpbImFsbCJdLCJhdG0iOiJ1c2VybmFtZSIsImV4cCI6MTc1MTQ0MjkwMCwiaWF0IjoxNzUxNDQyODkwLCJqdGkiOiI5Yzk4MTMzNC1kMjQ1LTRkZGUtYTAxNy1kNDYzZjk3MGU0NjgiLCJjbGllbnRfaWQiOiJ0YXliY3RfcGMiLCJhdXRob3JpdGllcyI6WyIwMDAwMDA6Uk9PVCJdfQ.JGUMgWv_pXhsF475Srd75BqNt4HMREblKR7TreDUIEkP9mYiT_4UvWlB09j_HEM5Yo0hRpav8c7Kwn_T_SO-2Py26NfJvIY-7X8fWoGcdakipPmD-_PetZbCR-deXuGtcYQn07u7k4g5lz828ThfO4EMl8m_b6avupTJnqjq34j3ElVOeZ0CUG2HT52o-k2RQodfiKP0H4L60XLz4yqVXPljJtDjFmbq2hsFyDMfXQSOFZLsXY8bs6CA78FGCROWDNnOcaElr-KOtb75dVuMrTBrcfEHmFFr5f4X_DFnl9cQ4NrRMtyxAMrycYCfnO9nXi9ipmiZc41YMYThPj1SGw', '2025-07-02 15:54:50.274079', '2025-07-02 15:55:00.274079', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.claims":{"@class":"java.util.Collections$UnmodifiableMap","uid":"1","nbf":["java.time.Instant",1751442890.274078700],"grant_type":"taybct","user_name":"root","scope":["java.util.Collections$UnmodifiableSet",["all"]],"atm":"username","exp":["java.time.Instant",1751442900.274078700],"iat":["java.time.Instant",1751442890.274078700],"jti":"9c981334-d245-4dde-a017-d463f970e468","client_id":"taybct_pc","authorities":["java.util.ArrayList",["000000:ROOT"]]},"metadata.token.invalidated":false}', 'Bearer', 'all', NULL, NULL, NULL, NULL, 'Uc5zEHBYb2U0aIzFoqGHlrBjySpNbMQXXyR9Kgnwe1f9FZLQO8HqEsBNj_Q5nrNu_ED1qH2fMxLLucvNwMaU0dP9kMZ31M6a63YFGhPvwgsnQylVOn5vJ162sesogi7O', '2025-07-02 15:54:50.284078', '2025-07-03 15:54:50.284078', '{"@class":"java.util.Collections$UnmodifiableMap","metadata.token.invalidated":false}', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for oauth2_authorization_consent
@@ -569,7 +561,8 @@ COMMENT ON TABLE "public"."oauth2_registered_client" IS 'oauth2 客户端表';
 -- ----------------------------
 -- Records of oauth2_registered_client
 -- ----------------------------
-INSERT INTO "public"."oauth2_registered_client" VALUES ('1', 'taybct_pc', '2023-01-03 10:14:24', '$2a$10$vqPIX4m28RVngi6Q6L/CoehR9HJv24IsKtJ6XSjzQL/lmuQZnzSi6', NULL, 'taybct_pc', 'client_secret_basic', 'taybct,refresh_token,password,authorization_code,sms,wechat_qr_code,taybct_refresh,pki', 'https://www.baidu.com', 'all', '{"@class":"java.util.Collections$UnmodifiableMap","settings.client.require-proof-key":false,"settings.client.require-authorization-consent":false}', '{"@class":"java.util.Collections$UnmodifiableMap","settings.token.reuse-refresh-tokens":true,"settings.token.id-token-signature-algorithm":["org.springframework.security.oauth2.jose.jws.SignatureAlgorithm","RS256"],"settings.token.access-token-time-to-live":["java.time.Duration",10.000000000],"settings.token.access-token-format":{"@class":"org.springframework.security.oauth2.server.authorization.settings.OAuth2TokenFormat","value":"self-contained"},"settings.token.refresh-token-time-to-live":["java.time.Duration",86400.000000000],"settings.token.authorization-code-time-to-live":["java.time.Duration",300.000000000]}', NULL);
+INSERT INTO "public"."oauth2_registered_client" VALUES ('1', 'taybct_pc', '2023-01-03 10:14:24', '$2a$10$vqPIX4m28RVngi6Q6L/CoehR9HJv24IsKtJ6XSjzQL/lmuQZnzSi6', NULL, 'taybct_pc', 'client_secret_basic', 'taybct_refresh,refresh_token,password,client_credentials,authorization_code,taybct,sms,wechat_qr_code,pki', 'https://www.baidu.com', 'all', '{"@class":"java.util.Collections$UnmodifiableMap","settings.client.require-proof-key":false,"settings.client.require-authorization-consent":false}', '{"@class":"java.util.Collections$UnmodifiableMap","settings.token.reuse-refresh-tokens":true,"settings.token.id-token-signature-algorithm":["org.springframework.security.oauth2.jose.jws.SignatureAlgorithm","RS256"],"settings.token.access-token-time-to-live":["java.time.Duration",3600.000000000],"settings.token.access-token-format":{"@class":"org.springframework.security.oauth2.server.authorization.settings.OAuth2TokenFormat","value":"self-contained"},"settings.token.refresh-token-time-to-live":["java.time.Duration",86400.000000000],"settings.token.authorization-code-time-to-live":["java.time.Duration",300.000000000],"settings.token.device-code-time-to-live":["java.time.Duration",300.000000000]}', '');
+INSERT INTO "public"."oauth2_registered_client" VALUES ('1947936658897342465', 'test', '2025-07-23 16:27:45.498924', '$2a$10$BHWwbuqCvSdTCno9LBPI.OqsUDo4L8Ac8HqUoLbutGXif5uZy.5s6', NULL, 'test', 'client_secret_basic', 'code', 'https://www.baidu.com', 'all', '{"@class":"java.util.Collections$UnmodifiableMap","settings.client.require-proof-key":false,"settings.client.require-authorization-consent":false}', '{"@class":"java.util.Collections$UnmodifiableMap","settings.token.reuse-refresh-tokens":true,"settings.token.id-token-signature-algorithm":["org.springframework.security.oauth2.jose.jws.SignatureAlgorithm","RS256"],"settings.token.access-token-time-to-live":["java.time.Duration",3600.000000000],"settings.token.access-token-format":{"@class":"org.springframework.security.oauth2.server.authorization.settings.OAuth2TokenFormat","value":"self-contained"},"settings.token.refresh-token-time-to-live":["java.time.Duration",604800.000000000],"settings.token.authorization-code-time-to-live":["java.time.Duration",300.000000000],"settings.token.device-code-time-to-live":["java.time.Duration",300.000000000]}', '');
 
 -- ----------------------------
 -- Table structure for scheduled_log
@@ -605,10 +598,10 @@ COMMENT ON TABLE "public"."scheduled_log" IS '调度日志';
 -- ----------------------------
 -- Records of scheduled_log
 -- ----------------------------
-INSERT INTO "public"."scheduled_log" VALUES (1929804495605776388, NULL, 'clearExpires', '清理登录超时用户', '{}', '任务 [清理登录超时用户] 执行完毕', 1, NULL, '2025-06-03 15:37:00.29749', '2025-06-03 15:37:00.37411', '2025-06-03 15:37:00.443911');
-INSERT INTO "public"."scheduled_log" VALUES (1929804495605776387, NULL, 'iniParams', '初始化参数配置', '{}', '任务 [初始化参数配置] 执行完毕', 1, NULL, '2025-06-03 15:37:00.29749', '2025-06-03 15:37:00.37411', '2025-06-03 15:37:00.443911');
-INSERT INTO "public"."scheduled_log" VALUES (1929804495605776385, NULL, 'clearDirtyData', '清理权限脏数据', '{}', '任务 [清理权限脏数据] 执行完毕', 1, NULL, '2025-06-03 15:37:00.29749', '2025-06-03 15:37:00.363835', '2025-06-03 15:37:00.443911');
-INSERT INTO "public"."scheduled_log" VALUES (1929804495605776386, NULL, 'iniPermissionConfig', '初始化权限配置', '{}', '任务 [初始化权限配置] 执行完毕', 1, NULL, '2025-06-03 15:37:00.29749', '2025-06-03 15:37:00.337315', '2025-06-03 15:37:00.443911');
+INSERT INTO "public"."scheduled_log" VALUES (1958002547977981953, NULL, 'iniPermissionConfig', '初始化权限配置', '{}', '任务 [初始化权限配置] 执行完毕', 1, NULL, '2025-08-20 11:06:00.032401', '2025-08-20 11:06:00.034913', '2025-08-20 11:06:00.034913');
+INSERT INTO "public"."scheduled_log" VALUES (1958002547977981954, NULL, 'clearExpires', '清理登录超时用户', '{}', '任务 [清理登录超时用户] 执行完毕', 1, NULL, '2025-08-20 11:06:00.033909', '2025-08-20 11:06:00.038114', '2025-08-20 11:06:00.038114');
+INSERT INTO "public"."scheduled_log" VALUES (1958002548045090817, NULL, 'clearDirtyData', '清理权限脏数据', '{}', '任务 [清理权限脏数据] 执行完毕', 1, NULL, '2025-08-20 11:06:00.033909', '2025-08-20 11:06:00.043311', '2025-08-20 11:06:00.043311');
+INSERT INTO "public"."scheduled_log" VALUES (1958002548045090818, NULL, 'iniParams', '初始化参数配置', '{}', '任务 [初始化参数配置] 执行完毕', 1, NULL, '2025-08-20 11:06:00.032401', '2025-08-20 11:06:00.043819', '2025-08-20 11:06:00.043819');
 
 -- ----------------------------
 -- Table structure for scheduled_task
@@ -695,7 +688,16 @@ COMMENT ON TABLE "public"."sys_dept" IS '部门';
 -- ----------------------------
 -- Records of sys_dept
 -- ----------------------------
-INSERT INTO "public"."sys_dept" VALUES (0, 1, '2024-08-31 15:52:34', NULL, '2024-08-31 15:52:38', 0, '000000', 0, '占位', 0, '占位', '占位', '0', NULL, NULL, NULL);
+INSERT INTO "public"."sys_dept" VALUES (0, 1, '2024-08-31 15:52:34', NULL, '2024-08-31 15:52:38', 0, '000000', 0, '占位', 0, '占位', '占位', '0', NULL, NULL, '1');
+INSERT INTO "public"."sys_dept" VALUES (1, 1, '2024-08-31 15:52:34', NULL, '2024-08-31 15:52:38', 0, '000000', 0, '顶级部门', 0, '顶级部门', '顶级部门', '1', 0, '0', '1');
+INSERT INTO "public"."sys_dept" VALUES (2, 1, '2024-08-31 15:52:34', NULL, '2024-08-31 15:52:38', 0, '000000', 0, '二级部门', 0, '二级部门', '二级部门', '2', 1, '0,1', '3');
+INSERT INTO "public"."sys_dept" VALUES (3, 1, '2024-08-31 15:52:34', NULL, '2024-08-31 15:52:38', 0, '000000', 0, '三级部门', 0, '三级部门', '三级部门', '3', 2, '0,1,2', '3');
+INSERT INTO "public"."sys_dept" VALUES (4, 1, '2024-08-31 15:52:34', NULL, '2024-08-31 15:52:38', 0, '000000', 0, '四级部门', 0, '四级部门', '四级部门', '4', 3, '0,1,2,3', '3');
+INSERT INTO "public"."sys_dept" VALUES (5, 1, '2024-08-31 15:52:34', NULL, '2024-08-31 15:52:38', 0, '000000', 0, '五级部门', 0, '五级部门', '五级部门', '5', 4, '0,1,2,3,4', '3');
+INSERT INTO "public"."sys_dept" VALUES (6, 1, '2024-08-31 15:52:34', NULL, '2024-08-31 15:52:38', 0, '000000', 0, '六级部门', 0, '六级部门', '六级部门', '6', 5, '0,1,2,3,4,5', '3');
+INSERT INTO "public"."sys_dept" VALUES (1943511731406491650, 1, '2025-07-11 11:24:40.134908', 1, '2025-07-11 11:57:22.056', 1, '000000', 1943511731406491650, '三级二', 1, '三级第二个部门', '三级第二个部门', '0302', 2, '0,1,2', '3');
+INSERT INTO "public"."sys_dept" VALUES (1943511912596230146, 1, '2025-07-11 11:25:23.32695', 1, '2025-07-11 11:25:23.32695', 0, '000000', 0, '三级二一', 0, '第级第二个部门的第一个子部门', '第级第二个部门的第一个子部门', '030201', 1943511731406491650, '0,1,2,1943511731406491650', '3');
+INSERT INTO "public"."sys_dept" VALUES (1943519889076113410, 1, '2025-07-11 11:57:05.069084', 1, '2025-07-11 11:57:13.724', 1, '000000', 1943519889076113410, 'ggg', 0, 'ggg', 'ggg', 'ggg', 1943511912596230146, '0,1,2,1943511731406491650,1943511912596230146', '3');
 
 -- ----------------------------
 -- Table structure for sys_dict
@@ -739,8 +741,6 @@ COMMENT ON TABLE "public"."sys_dict" IS '字典';
 -- ----------------------------
 -- Records of sys_dict
 -- ----------------------------
-INSERT INTO "public"."sys_dict" VALUES (1538729015877484545, 1, '2022-06-20 11:42:40', 1, '2022-09-29 17:14:55', 0, 'system-status', '1', '启用', 1, '', 0, '', 'success', 0);
-INSERT INTO "public"."sys_dict" VALUES (1538729077403729921, 1, '2022-06-20 11:42:55', 1, '2022-09-29 17:14:41', 0, 'system-status', '0', '禁用', 1, '', 1, '', 'danger', 0);
 INSERT INTO "public"."sys_dict" VALUES (1539854335129067522, 1, '2022-06-23 14:14:17', 1, '2022-09-23 16:29:22', 1, 'system-gender', '0', '男', 1, '', 0, '', '', 1573228430524596226);
 INSERT INTO "public"."sys_dict" VALUES (1539854373901213697, 1, '2022-06-23 14:14:27', 1, '2022-09-23 16:29:27', 1, 'system-gender', '1', '女', 1, '', 1, '', '', 1573228450313322497);
 INSERT INTO "public"."sys_dict" VALUES (1539854964199170050, 1, '2022-06-23 14:16:47', 1, '2022-09-23 16:26:11', 0, 'authorized-grant-type', 'authorization_code', '授权码', 1, '', 0, '', '', 0);
@@ -771,9 +771,11 @@ INSERT INTO "public"."sys_dict" VALUES (1678652564928196609, 1, '2023-07-11 14:2
 INSERT INTO "public"."sys_dict" VALUES (1678652638152355842, 1, '2023-07-11 14:29:11.451', 1, '2023-07-11 14:29:11.451', 0, 'lf_node_type', 'custom-node-judgment', '条件判断', 1, '', 3, ' ', ' ', 0);
 INSERT INTO "public"."sys_dict" VALUES (1678652695337496577, 1, '2023-07-11 14:29:25.085', 1, '2023-07-11 14:29:25.085', 0, 'lf_node_type', 'custom-node-end', '结束节点', 1, '', 4, ' ', ' ', 0);
 INSERT INTO "public"."sys_dict" VALUES (1678652766699384834, 1, '2023-07-11 14:29:42.099', 1, '2023-07-11 14:29:42.099', 0, 'lf_node_type', 'custom-group', '分组', 1, '', 5, ' ', ' ', 0);
-INSERT INTO "public"."sys_dict" VALUES (1679680520972615681, 1, '2023-07-14 10:33:37.811', 1, '2023-07-14 10:33:37.811', 0, 'lf_process_type', 'normal', '普通流程', 1, '', 0, ' ', ' ', 0);
 INSERT INTO "public"."sys_dict" VALUES (1539855889231945730, 1, '2022-06-23 14:20:28', 1, '2022-09-23 16:26:11', 0, 'authorized-grant-type', 'taybct', '同步密码模式', 1, '', 5, '', '', 0);
 INSERT INTO "public"."sys_dict" VALUES (1633006373893042178, 1, '2023-03-07 15:27:13.981285', 1, '2023-03-07 15:27:13.982937', 0, 'authorized-grant-type', 'taybct_refresh', 'taybct_refresh', 1, '', 0, '', '', 0);
+INSERT INTO "public"."sys_dict" VALUES (1679680520972615681, 1, '2023-07-14 10:33:37.811', 1, '2025-07-17 16:52:35.030509', 0, 'lf_process_type', 'normal', '普通流程', 1, '', 0, ' ', ' ', 0);
+INSERT INTO "public"."sys_dict" VALUES (1538729077403729921, 1, '2022-06-20 11:42:55', 1, '2025-07-18 11:52:39.294871', 0, 'system-status', '0', '禁用', 1, '', 1, '', 'danger', 0);
+INSERT INTO "public"."sys_dict" VALUES (1538729015877484545, 1, '2022-06-20 11:42:40', 1, '2025-07-18 11:52:45.974772', 0, 'system-status', '1', '启用', 1, '', 0, '', 'success', 0);
 
 -- ----------------------------
 -- Table structure for sys_dict_type
@@ -809,7 +811,6 @@ COMMENT ON TABLE "public"."sys_dict_type" IS '字段类型';
 -- ----------------------------
 -- Records of sys_dict_type
 -- ----------------------------
-INSERT INTO "public"."sys_dict_type" VALUES (1537328288877662209, 1, '2022-06-16 14:56:41', 1, '2022-09-23 16:26:04', 0, '系统状态', 'system-status', 1, '', 0);
 INSERT INTO "public"."sys_dict_type" VALUES (1539853897667354625, 1, '2022-06-23 14:12:33', 1, '2022-09-23 16:26:04', 0, '性别', 'system-gender', 1, '', 0);
 INSERT INTO "public"."sys_dict_type" VALUES (1539854788155842562, 1, '2022-06-23 14:16:05', 1, '2022-09-23 16:26:04', 0, '客户端授权模式', 'authorized-grant-type', 1, '', 0);
 INSERT INTO "public"."sys_dict_type" VALUES (1570614325850521601, 1, '2022-09-16 11:23:31', 1, '2022-09-23 16:26:04', 0, '用户类型', 'user-type', 1, '', 0);
@@ -818,7 +819,8 @@ INSERT INTO "public"."sys_dict_type" VALUES (1572496669654040577, 1, '2022-09-21
 INSERT INTO "public"."sys_dict_type" VALUES (1579408522250448898, 1, '2022-10-10 17:48:30', 1, '2022-10-10 17:48:30', 0, '通知类型', 'notice-type', 1, '通知类型', 0);
 INSERT INTO "public"."sys_dict_type" VALUES (1668869003685576706, 1, '2023-06-14 14:32:31.218', 1, '2023-06-14 14:32:31.218', 0, '是否', 'is', 1, '', 0);
 INSERT INTO "public"."sys_dict_type" VALUES (1678652327878717442, 1, '2023-07-11 14:27:57.476', 1, '2023-07-11 14:27:57.476', 0, '流程节点类型', 'lf_node_type', 1, '', 0);
-INSERT INTO "public"."sys_dict_type" VALUES (1679680386712944641, 1, '2023-07-14 10:33:05.801', 1, '2023-07-14 10:33:05.801', 0, '流程类型', 'lf_process_type', 1, '', 0);
+INSERT INTO "public"."sys_dict_type" VALUES (1679680386712944641, 1, '2023-07-14 10:33:05.801', 1, '2025-07-17 16:52:35.04473', 0, '流程类型', 'lf_process_type', 1, '', 0);
+INSERT INTO "public"."sys_dict_type" VALUES (1537328288877662209, 1, '2022-06-16 14:56:41', 1, '2025-07-18 11:52:39.299656', 0, '系统状态', 'system-status', 1, '', 0);
 
 -- ----------------------------
 -- Table structure for sys_file
@@ -836,7 +838,8 @@ CREATE TABLE "public"."sys_file" (
   "is_deleted" int2 NOT NULL,
   "manage_type" varchar(50) COLLATE "pg_catalog"."default" NOT NULL,
   "file_type" varchar(255) COLLATE "pg_catalog"."default",
-  "update_user" int8
+  "update_user" int8,
+  "tenant_id" varchar(34) COLLATE "pg_catalog"."default"
 )
 ;
 COMMENT ON COLUMN "public"."sys_file"."id" IS '主键';
@@ -851,12 +854,29 @@ COMMENT ON COLUMN "public"."sys_file"."is_deleted" IS '是否已删除';
 COMMENT ON COLUMN "public"."sys_file"."manage_type" IS '文件管理服务器类型（local,oss,fdfs,minio）';
 COMMENT ON COLUMN "public"."sys_file"."file_type" IS '文件类型';
 COMMENT ON COLUMN "public"."sys_file"."update_user" IS '更新人';
+COMMENT ON COLUMN "public"."sys_file"."tenant_id" IS '租户id';
 COMMENT ON TABLE "public"."sys_file" IS '文件管理';
 
 -- ----------------------------
 -- Records of sys_file
 -- ----------------------------
-INSERT INTO "public"."sys_file" VALUES (1830688606604599298, '2024/09/03/e83cb361760a43f1ba67d977730fde0b.jpeg', '2024-09-03 03:25:51.021704', 1, '2024-09-03 03:26:06.001631', 1, 'sys_user', 1, 0, 'minio', '.jpeg', 1);
+INSERT INTO "public"."sys_file" VALUES (1830688606604599298, '2024/09/03/e83cb361760a43f1ba67d977730fde0b.jpeg', '2024-09-03 03:25:51.021704', 1, '2024-09-03 03:26:06.001631', 1, 'sys_user', 1, 0, 'minio', '.jpeg', 1, NULL);
+INSERT INTO "public"."sys_file" VALUES (1945315191156125697, '/2025/07/16/13d5df7578c04f05b041935702d08ae7.png', '2025-07-16 10:50:58.446', 1, '2025-07-16 10:50:58.446', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945319240165322754, '/2025/07/16/885ea870bfa443d78ea184a364482a6f.png', '2025-07-16 11:07:03.798345', 1, '2025-07-16 11:07:03.898099', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945325358337847297, '/2025/07/16/79bb9f4eff24485c8ed0f31ca5b9b952.png', '2025-07-16 11:31:22.492709', 1, '2025-07-16 11:31:22.492709', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945325597480284161, '/2025/07/16/07d3db46dc194c289db2bf30a87dfe18.png', '2025-07-16 11:32:19.504041', 1, '2025-07-16 11:32:19.504041', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945325929631412226, '/2025/07/16/97751e2009584d7db629c5416a8769df.png', '2025-07-16 11:33:38.693381', 1, '2025-07-16 11:33:38.694891', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945326197332865025, '/2025/07/16/f0db8279330b41efb4eccf3d72aab0a5.png', '2025-07-16 11:34:42.526777', 1, '2025-07-16 11:34:42.526777', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945326296918224897, '/2025/07/16/041235d72c65479cb7dd88ba3a203e18.png', '2025-07-16 11:35:06.261899', 1, '2025-07-16 11:35:06.261899', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945326491441655809, '/2025/07/16/3d4a38626b384d449ed8c15276e22bb6.png', '2025-07-16 11:35:52.645288', 1, '2025-07-16 11:35:52.645288', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945326537499308034, '/2025/07/16/49f1a206716d47e79e17e3b255ba7b30.png', '2025-07-16 11:36:03.624063', 1, '2025-07-16 11:36:03.624063', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945326625021849602, '/2025/07/16/3a5083cea09b49e99c2a97456c028183.png', '2025-07-16 11:36:24.4898', 1, '2025-07-16 11:36:24.4898', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1948285136043364354, '/2025/07/24/488ec447da21485a8fa93024b71c92a7.png', '2025-07-24 15:32:28.478777', 1, '2025-07-24 15:32:28.634898', 0, NULL, NULL, 0, 'local', 'png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1945315555838275586, '/2025/07/16/dd8f0ab62d934508919a31b18e53d305.png', '2025-07-16 10:52:25.396004', 1, '2025-07-24 15:37:16.559588', 0, 'sys_user', 1, 0, 'local', '.png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1948285948345831426, '/2025/07/24/5e049e1aba26472b9ee1a1aebe28f89f.png', '2025-07-24 15:35:42.155875', 1, '2025-07-24 15:38:56.154827', 0, 'sys_user', 1, 0, 'local', '.png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1948286495178215426, '/2025/07/24/7ed9bbb6a89240eb94d43976929a5f02.png', '2025-07-24 15:37:52.525654', 1, '2025-07-24 15:38:56.17172', 0, 'sys_user', 1, 0, 'local', '.png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1948286773789052930, '/2025/07/24/36c222da6c314821857d86e6b76329ad.png', '2025-07-24 15:38:58.956332', 1, '2025-07-24 15:40:36.157633', 1, 'sys_user', 1, 0, 'local', '.png', 1, '000000');
+INSERT INTO "public"."sys_file" VALUES (1948286658584104962, '/2025/07/24/f2b0eed6b1e149ba9792a27b9163c950.png', '2025-07-24 15:38:31.482619', 1, '2025-07-24 15:40:36.166703', 0, 'sys_user', 1, 0, 'local', '.png', 1, '000000');
 
 -- ----------------------------
 -- Table structure for sys_history_record
@@ -942,8 +962,6 @@ COMMENT ON TABLE "public"."sys_menu" IS '菜单表';
 -- Records of sys_menu
 -- ----------------------------
 INSERT INTO "public"."sys_menu" VALUES (0, 'Layout', NULL, 1, NULL, 0, 'Layout', 'Layout', 'Layout', NULL, 1, ' ', 1, 0, NULL, 0, NULL, NULL, NULL, '2022-06-22 09:14:06', 0);
-INSERT INTO "public"."sys_menu" VALUES (5, '菜单管理', 4, 1, NULL, 2, 'menu', 'menu', 'system/menu/index', NULL, 1, 'C', 0, 1, 'bi:menu-button-fill', 0, NULL, NULL, 1, '2022-08-24 16:08:14', 0);
-INSERT INTO "public"."sys_menu" VALUES (6, '角色管理', 4, 1, NULL, 1, 'role', 'role', 'system/role/index', NULL, 1, 'C', 0, 1, 'carbon:user-role', 0, NULL, NULL, 1, '2022-08-24 16:06:27', 0);
 INSERT INTO "public"."sys_menu" VALUES (7, '用户管理', 4, 1, NULL, 0, 'user', 'user', 'system/user/index', NULL, 1, 'C', 0, 1, 'bxs:user', 0, NULL, NULL, 1, '2022-08-24 15:48:43', 0);
 INSERT INTO "public"."sys_menu" VALUES (1475111131305844738, '权限管理', 4, 1, NULL, 3, 'permission', 'permission', 'system/permission/index', NULL, 1, 'C', 0, 1, 'icon-park-twotone:permissions', 0, NULL, NULL, 1, '2022-08-24 16:09:04', 0);
 INSERT INTO "public"."sys_menu" VALUES (1475197863846027266, '客户端管理', 4, 1, NULL, 7, 'client', 'client', 'system/client/index', NULL, 1, 'C', 0, 1, 'gridicons:share-computer', 0, 1, '2022-06-17 10:39:06', 1, '2022-09-21 16:18:12', 0);
@@ -952,19 +970,22 @@ INSERT INTO "public"."sys_menu" VALUES (1537625854055940097, '参数管理', 4, 
 INSERT INTO "public"."sys_menu" VALUES (1572500323467444226, '字典信息', 4, 0, NULL, 5, 'dict', 'dict/:dictCode', 'system/dict/index', NULL, 0, 'C', 1, 1, 'arcticons:colordict', 0, 1, '2022-09-21 16:17:47', 1, '2022-10-10 17:51:59', 0);
 INSERT INTO "public"."sys_menu" VALUES (1572502356924743682, '个人中心', 4, 0, NULL, 97, 'personal', 'personal', 'system/personal/index', NULL, 1, 'C', 1, 1, 'akar-icons:laptop-device', 0, 1, '2022-09-21 16:25:52', 1, '2022-09-21 16:25:52', 0);
 INSERT INTO "public"."sys_menu" VALUES (1575299088586797058, '租户管理', 4, 1, NULL, 8, 'tenant', 'tenant', 'system/tenant/index', NULL, 1, 'C', 0, 1, 'fa-solid:house-user', 0, 1, '2022-09-29 09:39:05', 1, '2022-09-29 09:39:05', 0);
-INSERT INTO "public"."sys_menu" VALUES (1529380639935463426, '百度AI', 4, 1, NULL, 98, 'baiduAI', 'baidu-ai', 'https://chat.baidu.com/', '', 1, 'C', 0, 1, 'ri:baidu-fill', 0, 1, '2022-06-25 12:08:43', 1, '2024-09-20 00:22:26.58144', 0);
-INSERT INTO "public"."sys_menu" VALUES (1631227390958325768, 'mangocrisp', 4, 0, NULL, 1, 'https://mangocrisp.github.io', '/outlink', 'scheduling/index', NULL, 1, 'C', 0, 1, 'entypo-social:github-with-circle', 0, 1, '2023-03-02 17:38:11.406762', 1, '2023-03-02 17:38:29.894264', 0);
-INSERT INTO "public"."sys_menu" VALUES (1795660210988138497, '部门管理', 4, 0, NULL, 2, 'Dept', 'dept', 'system/dept/index', NULL, 1, 'C', 0, 1, 'eos-icons:organization', 0, 1, '2024-05-29 11:35:30.712', 1, '2024-05-29 11:35:30.712', 0);
-INSERT INTO "public"."sys_menu" VALUES (4, '系统管理', 0, 0, NULL, 99, 'system', '/system', 'Layout', '/system/user', 1, 'M', 0, 1, 'icon-park-outline:system', 0, NULL, NULL, 1, '2023-06-28 13:49:36.402', 0);
+INSERT INTO "public"."sys_menu" VALUES (4, '系统管理', 0, 0, NULL, 99, 'system', '/system', 'Layout', '/system/user', 1, 'M', 0, 1, 'grommet-icons:system', 0, NULL, NULL, 1, '2023-06-28 13:49:36.402', 0);
 INSERT INTO "public"."sys_menu" VALUES (1537698325769674753, '在线用户', 1627485035375833090, 1, NULL, 9, 'onlineUser', 'online-user', 'system/online-user/index', NULL, 1, 'C', 0, 1, 'carbon:user-online', 0, 1, '2022-06-17 15:27:05', 1, '2022-09-29 09:39:11', 0);
 INSERT INTO "public"."sys_menu" VALUES (1563061288516792322, '日志管理', 1627485035375833090, 0, NULL, 10, 'adminLog', 'admin-log', 'system/log/index', NULL, 1, 'C', 0, 1, 'bx:log-in', 0, 1, '2022-08-26 15:10:26', 1, '2022-09-29 09:39:14', 0);
 INSERT INTO "public"."sys_menu" VALUES (1627485035375833090, '系统监控', 0, 1, NULL, 99, 'monitoring', '/monitoring', 'Layout', '/monitoring/scheduling-task', 1, 'M', 0, 1, 'eos-icons:monitoring', 0, 1, '2023-02-20 09:47:24', 1, '2023-06-14 16:04:56.904', 0);
 INSERT INTO "public"."sys_menu" VALUES (1627485430827397122, '任务调度', 1627485035375833090, 1, NULL, 0, 'SchedulingTask', 'scheduling-task', 'scheduling/index', NULL, 1, 'C', 0, 1, 'material-symbols:schedule-outline', 0, 1, '2023-02-20 09:48:59', 1, '2023-02-20 09:53:16', 0);
 INSERT INTO "public"."sys_menu" VALUES (1631227390958325762, '任务调度日志', 1627485035375833090, 0, NULL, 1, 'SchedulingTaskLog', 'scheduling-task-log', 'scheduling/log', NULL, 1, 'C', 0, 1, 'icon-park-solid:log', 0, 1, '2023-03-02 17:38:11.406762', 1, '2023-03-02 17:38:29.894264', 0);
-INSERT INTO "public"."sys_menu" VALUES (1547787400883089410, '一级菜单', 0, 1, NULL, 0, 'ceshi', '/ceshi', 'Layout', NULL, 1, 'M', 0, 1, 'bx:menu-alt-left', 0, 1, '2022-07-15 11:37:28', 1, '2022-08-26 14:26:03', 0);
+INSERT INTO "public"."sys_menu" VALUES (1529380639935463426, '百度AI', 4, 1, NULL, 98, 'BaiduAI', 'baidu-ai', 'https://chat.baidu.com/', '', 1, 'C', 0, 1, 'ri:baidu-fill', 0, 1, '2022-06-25 12:08:43', 1, '2024-09-20 00:22:26.58144', 0);
 INSERT INTO "public"."sys_menu" VALUES (1547818807554617346, '二级菜单2', 1547787400883089410, 1, NULL, 0, 'ceshi2', 'ceshi2-2', 'nested/menu2/index', NULL, 1, 'C', 0, 1, 'bx:menu-alt-left', 0, 1, '2022-07-15 13:42:15', 1, '2022-08-26 11:44:51', 0);
 INSERT INTO "public"."sys_menu" VALUES (1547835699233173505, '二级菜单1', 1547787400883089410, 1, NULL, 0, 'ceshi1', 'ceshi2-1', 'Layout', NULL, 1, 'M', 0, 1, 'bx:menu-alt-left', 0, 1, '2022-07-15 14:49:23', 1, '2022-08-26 14:04:50', 0);
 INSERT INTO "public"."sys_menu" VALUES (1547835850341363713, '三级菜单', 1547835699233173505, 1, NULL, 0, 'ceshi3', 'ceshi3', 'nested/menu1/menu1-1/index', '', 0, 'C', 0, 1, 'bx:menu-alt-left', 0, 1, '2022-07-15 14:49:59', 1, '2022-08-26 13:54:16', 0);
+INSERT INTO "public"."sys_menu" VALUES (1631227390958325768, 'mangocrisp', 4, 0, NULL, 1, 'https://mangocrisp.github.io', NULL, NULL, NULL, 1, 'C', 0, 1, 'entypo-social:github-with-circle', 1, 1, '2023-03-02 17:38:11.406762', 1, '2023-03-02 17:38:29.894264', 0);
+INSERT INTO "public"."sys_menu" VALUES (6, '角色管理', 4, 1, NULL, 1, 'role', 'role', 'system/role/index', NULL, 1, 'C', 0, 1, 'carbon:user-role', 0, NULL, NULL, 1, '2022-08-24 16:06:27', 0);
+INSERT INTO "public"."sys_menu" VALUES (1547787400883089410, '一级菜单', 0, 1, NULL, 97, 'ceshi', '/ceshi', 'Layout', NULL, 1, 'M', 0, 1, 'bx:menu-alt-left', 0, 1, '2022-07-15 11:37:28', 1, '2022-08-26 14:26:03', 0);
+INSERT INTO "public"."sys_menu" VALUES (5, '菜单管理', 4, 1, NULL, 2, 'menu', 'menu', 'system/menu/index', NULL, 1, 'C', 0, 1, 'bi:menu-button-fill', 0, NULL, NULL, 1, '2022-08-24 16:08:14', 0);
+INSERT INTO "public"."sys_menu" VALUES (1944928279526395906, '豆包', 4, 1, '{"hiddenTag":false,"fixedTag":false,"transition":{"enterTransition":"tada","leaveTransition":"swing"},"frameLoading":true}', 1, 'https://www.doubao.com/chat', 'doubao', 'doubao', NULL, 1, 'C', 0, 1, 'hugeicons:ai-search', 1, 1, '2025-07-15 09:13:31.528387', 1, '2025-07-25 08:25:00.306769', 0);
+INSERT INTO "public"."sys_menu" VALUES (1795660210988138497, '部门管理', 4, 0, NULL, 2, 'Dept', 'dept', 'system/dept/index', NULL, 1, 'C', 0, 1, 'eos-icons:organization', 0, 1, '2024-05-29 11:35:30.712', 1, '2024-05-29 11:35:30.712', 0);
 
 -- ----------------------------
 -- Table structure for sys_notice
@@ -1071,7 +1092,8 @@ COMMENT ON TABLE "public"."sys_oauth2_client" IS '客户端';
 -- ----------------------------
 -- Records of sys_oauth2_client
 -- ----------------------------
-INSERT INTO "public"."sys_oauth2_client" VALUES (1, NULL, NULL, 1, '2023-04-21 14:02:23.49', 0, 'taybct_pc', 'e10adc3949ba59abbe56e057f20f883e', NULL, 'all', 'authorization_code,taybct,password,refresh_token,sms,wechat_qr_code,client_credentials,pki,taybct_refresh', 'https://www.baidu.com', NULL, 3600, 86400, NULL, 'true', 0, 'taybct_pc');
+INSERT INTO "public"."sys_oauth2_client" VALUES (1947936658897342465, 1, '2025-07-23 16:27:45.061381', 1, '2025-07-23 17:36:18.3107', 0, 'test', 'db979badee0415662c82b59953f0dc07', NULL, 'all', 'code', 'https://www.baidu.com', NULL, 3600, 604800, NULL, 'true', 0, 'test');
+INSERT INTO "public"."sys_oauth2_client" VALUES (1, 1, '2023-04-21 14:02:23.49', 1, '2025-07-22 17:21:26.046231', 0, 'taybct_pc', 'e10adc3949ba59abbe56e057f20f883e', NULL, 'all', 'authorization_code,taybct,password,refresh_token,sms,wechat_qr_code,client_credentials,pki,taybct_refresh', 'https://www.baidu.com', NULL, 3600, 86400, NULL, 'true', 0, 'taybct_pc');
 
 -- ----------------------------
 -- Table structure for sys_params
@@ -1112,17 +1134,17 @@ COMMENT ON TABLE "public"."sys_params" IS '系统参数';
 -- Records of sys_params
 -- ----------------------------
 INSERT INTO "public"."sys_params" VALUES (1570681338925006849, 1, '2022-09-16 15:49:48', 1, '2022-12-07 15:32:30', 0, 'STRING', '重置密码', 'user_passwd', '123456', 1, '', 0);
-INSERT INTO "public"."sys_params" VALUES (1600419490103230466, 1, '2022-12-07 17:18:35', 1, '2022-12-07 17:16:55', 1, 'NUMBER', '菜单默认的 Layout', 'menu_layout', '0', 1, '', 1600420040123285505);
-INSERT INTO "public"."sys_params" VALUES (1600419754042392578, 1, '2022-12-07 17:19:38', 1, '2022-12-07 17:16:55', 1, 'NUMBER', '默认的 ROOT 角色 id', 'role_root_id', '1', 1, '', 1600420040123285505);
 INSERT INTO "public"."sys_params" VALUES (1600420241626038273, 1, '2022-12-07 17:21:35', 1, '2022-12-07 17:21:35', 0, 'STRING', '默认角色，游客', 'user_role', 'TOURIST', 1, '', 0);
 INSERT INTO "public"."sys_params" VALUES (1600420305106829314, 1, '2022-12-07 17:21:50', 1, '2022-12-07 17:21:50', 0, 'NUMBER', '默认的游客角色 id', 'user_role_id', '5', 1, '', 0);
 INSERT INTO "public"."sys_params" VALUES (1600420365202817025, 1, '2022-12-07 17:22:04', 1, '2022-12-07 17:22:04', 0, 'NUMBER', '用户默认状态', 'user_status', '1', 1, '', 0);
 INSERT INTO "public"."sys_params" VALUES (1600420452104601602, 1, '2022-12-07 17:22:25', 1, '2022-12-07 17:22:25', 0, 'STRING', '默认租户 id', 'tenant_id', '000000', 1, '', 0);
-INSERT INTO "public"."sys_params" VALUES (1537637376811536386, 1, '2022-06-17 11:24:53', 1, '2024-09-05 01:02:17.348096', 0, 'STRING', '系统标题', 'sys_title', 'TayBct平台', 1, '', 0);
 INSERT INTO "public"."sys_params" VALUES (1600420622523367425, 1, '2022-12-07 17:23:05', 1, '2022-12-07 17:55:42', 0, 'STRING', '验证码的类型', 'captcha_type', 'GIF', 1, '可以查看枚举：io.github.mangocrisp.spring.taybct.common.constants.CaptchaType。
 可选：CIRCLE，GIF，LINE，SHEAR，默认 GIF', 0);
 INSERT INTO "public"."sys_params" VALUES (1573217163437035523, 1, '2022-09-23 15:46:15', 1, '2023-03-01 12:14:47.857079', 0, 'BOOLEAN', '是否允许重复登录同一个客户端', 'allow_multiple_token_one_client', 'true', 1, '这个配置，如果不配置，或者是禁用，默认系统是允许重复登录同一个客户端的', 0);
 INSERT INTO "public"."sys_params" VALUES (1600420532530380801, 1, '2022-12-07 17:22:44', 1, '2023-03-09 10:12:58.866714', 0, 'BOOLEAN', '是否需要验证码登录', 'enable_captcha', 'false', 1, '', 0);
+INSERT INTO "public"."sys_params" VALUES (1600419490103230466, 1, '2022-12-07 17:18:35', 1, '2022-12-07 17:16:55', 1, 'NUMBER', '菜单默认的 Layout', 'menu_layout', '0', 1, '', 1600420040123285505);
+INSERT INTO "public"."sys_params" VALUES (1600419754042392578, 1, '2022-12-07 17:19:38', 1, '2022-12-07 17:16:55', 1, 'NUMBER', '默认的 ROOT 角色 id', 'role_root_id', '1', 1, '', 1600420040123285505);
+INSERT INTO "public"."sys_params" VALUES (1537637376811536386, 1, '2022-06-17 11:24:53', 1, '2025-07-18 11:50:49.191031', 0, 'STRING', '系统标题', 'sys_title', 'TayBct平台', 1, '', 0);
 
 -- ----------------------------
 -- Table structure for sys_permission
@@ -1211,7 +1233,6 @@ INSERT INTO "public"."sys_permission" VALUES (1572157879118778369, NULL, '权限
 INSERT INTO "public"."sys_permission" VALUES (1572157879118778370, NULL, '权限编辑', 1475111131305844738, 'PUT:/system/permission', 'system:permission:edit', NULL, NULL, 1660854347478024193, '2023-06-05 09:58:03.626');
 INSERT INTO "public"."sys_permission" VALUES (1572824375696494593, NULL, '用户批量删除', 7, 'DELETE:/system/user/{ids}/batch', 'system:user:del:batch', 1, '2023-06-02 17:03:02.515', 1660854347478024193, '2023-06-02 17:03:02.52');
 INSERT INTO "public"."sys_permission" VALUES (1665540128268255233, 1633718264189677569, 'asdf', NULL, 'GET:/asdf', '', 1660854347478024193, '2023-06-05 10:04:45.475', 1660854347478024193, '2023-06-05 10:04:45.475');
-INSERT INTO "public"."sys_permission" VALUES (1665540716817186817, NULL, 'xxx', NULL, 'GET:/xxx', '', 1660854347478024193, '2023-06-05 10:07:05.797', 1660854347478024193, '2023-06-05 10:07:05.797');
 INSERT INTO "public"."sys_permission" VALUES (1773170931628363777, 1633718264189677569, 'hell添加', 1563061288516792322, 'POST:/hell/add', 'hell:add', 1, '2024-03-28 11:27:40.859', 1, '2024-03-28 11:27:40.859');
 
 -- ----------------------------
@@ -1280,9 +1301,9 @@ COMMENT ON TABLE "public"."sys_role" IS '角色';
 -- Records of sys_role
 -- ----------------------------
 INSERT INTO "public"."sys_role" VALUES (1, '超级管理员', 'ROOT', 0, 1, 1, '2021-12-26 22:02:26', 1, '2022-10-13 16:15:51', 0, '000000', 0);
-INSERT INTO "public"."sys_role" VALUES (5, '游客', 'TOURIST', 5, 1, 1, NULL, 1, '2022-10-19 15:37:36', 0, '000000', 0);
-INSERT INTO "public"."sys_role" VALUES (4, '普通用户', 'NORMAL', 4, 1, 1, NULL, 1, '2023-06-05 14:18:08.07683', 0, '000000', 0);
 INSERT INTO "public"."sys_role" VALUES (2, '管理员', 'ADMIN', 0, 1, 1, '2022-12-15 14:01:22', 1, '2023-05-31 16:15:26.754', 0, '000000', 0);
+INSERT INTO "public"."sys_role" VALUES (5, '游客', 'TOURIST', 5, 1, 1, '2022-12-15 14:01:22', 1, '2022-10-19 15:37:36', 0, '000000', 0);
+INSERT INTO "public"."sys_role" VALUES (4, '普通用户', 'NORMAL', 4, 1, 1, '2022-12-15 14:01:22', 1, '2023-06-05 14:18:08', 0, '000000', 0);
 
 -- ----------------------------
 -- Table structure for sys_role_dept
@@ -1321,10 +1342,6 @@ COMMENT ON TABLE "public"."sys_role_menu" IS '角色菜单关联表';
 -- ----------------------------
 -- Records of sys_role_menu
 -- ----------------------------
-INSERT INTO "public"."sys_role_menu" VALUES (4, 4, 0);
-INSERT INTO "public"."sys_role_menu" VALUES (4, 1572502356924743682, 1);
-INSERT INTO "public"."sys_role_menu" VALUES (4, 1529380639935463426, 1);
-INSERT INTO "public"."sys_role_menu" VALUES (4, 0, 1);
 INSERT INTO "public"."sys_role_menu" VALUES (5, 1537320455847165953, 1);
 INSERT INTO "public"."sys_role_menu" VALUES (5, 0, 1);
 INSERT INTO "public"."sys_role_menu" VALUES (5, 1572500323467444226, 1);
@@ -1333,6 +1350,15 @@ INSERT INTO "public"."sys_role_menu" VALUES (2, 0, 1);
 INSERT INTO "public"."sys_role_menu" VALUES (2, 6, 1);
 INSERT INTO "public"."sys_role_menu" VALUES (2, 4, 0);
 INSERT INTO "public"."sys_role_menu" VALUES (2, 7, 1);
+INSERT INTO "public"."sys_role_menu" VALUES (4, 4, 0);
+INSERT INTO "public"."sys_role_menu" VALUES (4, 1572502356924743682, 1);
+INSERT INTO "public"."sys_role_menu" VALUES (4, 1627485035375833090, 0);
+INSERT INTO "public"."sys_role_menu" VALUES (4, 1631227390958325768, 1);
+INSERT INTO "public"."sys_role_menu" VALUES (4, 1537698325769674753, 1);
+INSERT INTO "public"."sys_role_menu" VALUES (4, 1529380639935463426, 1);
+INSERT INTO "public"."sys_role_menu" VALUES (4, 1627485430827397122, 1);
+INSERT INTO "public"."sys_role_menu" VALUES (4, 0, 1);
+INSERT INTO "public"."sys_role_menu" VALUES (4, 1563061288516792322, 1);
 
 -- ----------------------------
 -- Table structure for sys_role_permission
@@ -1363,6 +1389,16 @@ INSERT INTO "public"."sys_role_permission" VALUES (2, 1572153139278434306);
 INSERT INTO "public"."sys_role_permission" VALUES (2, 1572157879118778369);
 INSERT INTO "public"."sys_role_permission" VALUES (2, 1572155394710884357);
 INSERT INTO "public"."sys_role_permission" VALUES (2, 1572153139278434305);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1631122862690881542);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1631122862690881543);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1631122862690881540);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1631122862690881541);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1631122862690881538);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1631122862690881539);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1631122862690881537);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1572827619025948673);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1572827421113520129);
+INSERT INTO "public"."sys_role_permission" VALUES (4, 1773170931628363777);
 
 -- ----------------------------
 -- Table structure for sys_tenant
@@ -1462,7 +1498,9 @@ COMMENT ON TABLE "public"."sys_user" IS '用户';
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO "public"."sys_user" VALUES (1, 'root', '艾米', 'Amy', '2', 'G1l7pDflJ8GyWTm5BzsMY/I0ZBHtY+J7mqfKNuCD4Ub9v5rPZUhCtW2zotJBjsKH39CXjvjC8ysGg/bukgtF35XEJczveNHI8+q2hpuOvDQ=', '2024/09/03/e83cb361760a43f1ba67d977730fde0b.jpeg', '13838380438', 'amy@taybct.com', '00', NULL, NULL, 1, 0, '2022-01-02 10:50:06', 1, '2024-09-03 03:25:51.34953', 0, NULL, 0, NULL, '2022-01-02 10:50:06');
+INSERT INTO "public"."sys_user" VALUES (2, 'admin', '管*员', 'Admin', '1', 'G1l7pDflJ8GyWTm5BzsMY/I0ZBHtY+J7mqfKNuCD4Ub9v5rPZUhCtW2zotJBjsKH39CXjvjC8ysGg/bukgtF35XEJczveNHI8+q2hpuOvDQ=', '/2025/07/16/3a5083cea09b49e99c2a97456c028183.png', '13737370337', 'admin@taybct.com', '00', NULL, NULL, 1, 0, '2022-01-02 10:50:06', 1, '2025-07-16 11:36:24.517958', 0, NULL, 0, NULL, '2022-01-02 10:50:06');
+INSERT INTO "public"."sys_user" VALUES (1945059926271860737, 'user', '用户', '普通用户', '1', 'G1l7pDflJ8GyWTm5BzsMY/I0ZBHtY+J7mqfKNuCD4Ub9v5rPZUhCtW2zotJBjsKH39CXjvjC8ysGg/bukgtF35XEJczveNHI8+q2hpuOvDQ=', '/2025/07/16/49f1a206716d47e79e17e3b255ba7b30.png', '13636360636', 'user@taybct.com', '00', ' ', NULL, 1, 1, '2025-07-15 17:56:38.553154', 1, '2025-07-16 11:38:43.368999', 0, NULL, 0, NULL, '2025-07-16 11:38:36.340245');
+INSERT INTO "public"."sys_user" VALUES (1, 'root', '艾米', 'Amy', '2', 'G1l7pDflJ8GyWTm5BzsMY/I0ZBHtY+J7mqfKNuCD4Ub9v5rPZUhCtW2zotJBjsKH39CXjvjC8ysGg/bukgtF35XEJczveNHI8+q2hpuOvDQ=', '/2025/07/24/36c222da6c314821857d86e6b76329ad.png', '13838380438', 'amy@taybct.com', '00', NULL, NULL, 1, 0, '2022-01-02 10:50:06', 1, '2025-07-24 17:33:13.936718', 0, NULL, 0, NULL, '2025-07-24 17:33:13.933135');
 
 -- ----------------------------
 -- Table structure for sys_user_dept
@@ -1482,6 +1520,8 @@ COMMENT ON TABLE "public"."sys_user_dept" IS '用户部门关联表，可以知�
 -- ----------------------------
 -- Records of sys_user_dept
 -- ----------------------------
+INSERT INTO "public"."sys_user_dept" VALUES (1945059926527713281, 1945059926271860737, 2);
+INSERT INTO "public"."sys_user_dept" VALUES (1945294810911367169, 2, 1);
 
 -- ----------------------------
 -- Table structure for sys_user_online
@@ -1545,6 +1585,8 @@ COMMENT ON TABLE "public"."sys_user_role" IS '用户角色关联表';
 -- Records of sys_user_role
 -- ----------------------------
 INSERT INTO "public"."sys_user_role" VALUES (1, 1);
+INSERT INTO "public"."sys_user_role" VALUES (1945059926271860737, 4);
+INSERT INTO "public"."sys_user_role" VALUES (2, 2);
 
 -- ----------------------------
 -- Table structure for sys_user_tenant
@@ -1563,6 +1605,8 @@ COMMENT ON TABLE "public"."sys_user_tenant" IS '用户_租户关联';
 -- Records of sys_user_tenant
 -- ----------------------------
 INSERT INTO "public"."sys_user_tenant" VALUES (1, '000000');
+INSERT INTO "public"."sys_user_tenant" VALUES (2, '000000');
+INSERT INTO "public"."sys_user_tenant" VALUES (1945059926271860737, '000000');
 
 -- ----------------------------
 -- Table structure for t_vue_template
@@ -1624,9 +1668,9 @@ INSERT INTO "public"."t_vue_template" VALUES (4, 1819664597403734017, '2024-12-0
 INSERT INTO "public"."t_vue_template" VALUES (5, 1819664597403734017, '2024-12-03 16:44:20', 1, '2024-12-06 11:45:42.608236', 0, '字符串fff', 12345678, 1819664597403734017, '2024-12-03', '2024-12-03 16:44:42', 1, 'f', '我这一生好吃懒做九死一生', '{"name":"张三"}', 1.2, 1.234567891);
 INSERT INTO "public"."t_vue_template" VALUES (1864881528770252801, 1, '2024-12-06 11:56:18.947714', 1, '2024-12-06 11:56:18.947714', 0, 'fff', NULL, NULL, NULL, NULL, NULL, 'f', NULL, NULL, NULL, NULL);
 INSERT INTO "public"."t_vue_template" VALUES (1864965168116023298, 1, '2024-12-06 17:28:40.115064', 1, '2024-12-06 17:28:40.115064', 0, 'fsadfasdf', 11122, 23344, '2024-12-06', '2024-12-06 17:22:00', 1, 'f', '体体体体体体体体体体体体体体', '{"name":"李四"}', 3.1, 3.14159265);
-INSERT INTO "public"."t_vue_template" VALUES (1864965218049212418, 1, '2024-12-06 17:28:52.027903', 1, '2024-12-06 17:28:52.027903', 0, 'fsadfasdf', 11122, 23344, '2024-12-06', '2024-12-06 17:22:00', 1, 'f', '体体体体体体体体体体体体体体', '{"name":"李四"}', 3.1, 3.14159265);
-INSERT INTO "public"."t_vue_template" VALUES (1879789669563576322, 1, '2025-01-16 15:15:56.685797', 1, '2025-01-16 15:15:56.687324', 0, '1', 0, 0, '2025-01-16', '2025-01-16 15:15:00', 0, 'f', '4', '{"name":"张三"}', 0, 0);
-INSERT INTO "public"."t_vue_template" VALUES (1879792173542019073, 1, '2025-01-16 15:25:53.68137', 1, '2025-01-16 17:25:25.986398', 0, '1', 0, 0, '2025-01-16', '2025-01-16 15:15:00', 0, 'f', '4', '{"name":"李四"}', 0, 0);
+INSERT INTO "public"."t_vue_template" VALUES (1864965218049212418, 1, '2024-12-06 17:28:52.027903', 1, '2025-08-18 09:29:33.815', 0, 'fsadfasdf', 11122, 23344, '2024-12-06', '2024-12-06 17:22:00', 1, 'f', '体体体体体体体体体体体体体体', '{"name":"李四"}', 3.1, 3.14159265);
+INSERT INTO "public"."t_vue_template" VALUES (1956285340134690817, 1, '2025-08-15 17:22:25.773192', 1, '2025-08-18 09:29:33.815', 0, 'test', 11, 22, '2025-08-15', '2025-08-15 17:22:04', 33, 'f', '44', '{"name":"demo","age":31}', 55, 66);
+INSERT INTO "public"."t_vue_template" VALUES (1957300498730598402, 1, '2025-08-18 12:36:18.446456', 1, '2025-08-18 12:36:24.52', 1, '1', 2, 3, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for undo_log
