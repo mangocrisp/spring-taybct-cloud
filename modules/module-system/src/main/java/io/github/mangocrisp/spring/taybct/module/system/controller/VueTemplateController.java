@@ -1,5 +1,6 @@
 package io.github.mangocrisp.spring.taybct.module.system.controller;
 
+import io.github.mangocrisp.spring.taybct.common.constants.ServeConstants;
 import io.github.mangocrisp.spring.taybct.module.system.domain.VueTemplate;
 import io.github.mangocrisp.spring.taybct.module.system.service.IVueTemplateService;
 import io.github.mangocrisp.spring.taybct.module.system.poi.exp.VueTemplateExpVO;
@@ -55,7 +56,7 @@ import java.util.concurrent.atomic.AtomicReference;
  */
 @Tag(name = "前端通用模板控制器")
 @RestController
-@RequestMapping("/v1/vueTemplate")
+@RequestMapping(ServeConstants.CONTEXT_PATH_SYSTEM + "v1/vueTemplate")
 @RequiredArgsConstructor
 public class VueTemplateController implements LongKeyConvertibleController<VueTemplate
         , IVueTemplateService
