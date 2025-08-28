@@ -9,7 +9,17 @@ set vm=-Dfile.encoding=utf-8 ^
 --add-opens java.base/java.lang=ALL-UNNAMED ^
 --add-opens java.base/java.lang.reflect=ALL-UNNAMED ^
 --add-opens java.base/java.lang.invoke=ALL-UNNAMED ^
---add-opens java.base/java.lang.io=ALL-UNNAMED
+--add-opens java.base/java.lang.io=ALL-UNNAMED ^
+-Xms8g -Xmx8g ^
+-XX:MaxMetaspaceSize=512m ^
+-XX:+UseZGC ^
+-XX:MaxGCPauseMillis=150 ^
+-XX:ReservedCodeCacheSize=256m ^
+-XX:+UseCodeCacheFlushing ^
+-Xlog:gc*,gc+age=trace,safepoint:file=gc.log:time,uptime,level,tags:filecount=10,filesize=10M ^
+-XX:+HeapDumpOnOutOfMemoryError ^
+-XX:HeapDumpPath=./java_pid%p.hprof ^
+-XX:NativeMemoryTracking=detail
 set params=--spring.profiles.active=dev ^
 --spring.cloud.nacos.discovery.server-addr=127.0.0.1:8848 ^
 --spring.cloud.nacos.config.server-addr=127.0.0.1:8848 ^
