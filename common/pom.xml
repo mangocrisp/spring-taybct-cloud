@@ -33,6 +33,14 @@
             <scope>provided</scope>
         </dependency>
 
+        <!--mvc 依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <optional>true</optional>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
