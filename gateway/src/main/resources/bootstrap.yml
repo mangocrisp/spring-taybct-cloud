@@ -149,8 +149,8 @@ spring:
           filters:
             - StripPrefix=1
         # 流程中心
-        - id: module-logic-flow
-          uri: lb://module-logic-flow
+        - id: module-lf
+          uri: lb://module-lf
           predicates:
             - Path=/lf/**
           filters:
