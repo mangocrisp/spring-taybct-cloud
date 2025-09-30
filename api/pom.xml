@@ -62,12 +62,6 @@
             <groupId>com.alibaba.nacos</groupId>
         </dependency>
 
-        <!--公共模块（偏业务）-->
-        <dependency>
-            <groupId>io.github.mangocrisp</groupId>
-            <artifactId>common</artifactId>
-        </dependency>
-
         <!--easyexcel poi 操作导入导出 excel-->
         <dependency>
             <groupId>com.alibaba</groupId>
