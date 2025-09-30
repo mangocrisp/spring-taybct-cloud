@@ -12,7 +12,7 @@
     <artifactId>module-online-doc</artifactId>
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
-    <description>logic-flow 流程引擎</description>
+    <description>online-document 在线文档</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

@@ -12,6 +12,7 @@
     <artifactId>module-es</artifactId>
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
+    <description>elasticsearch 搜索引擎</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
