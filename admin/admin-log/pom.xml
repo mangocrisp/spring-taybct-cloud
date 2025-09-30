@@ -21,9 +21,20 @@
 
     <dependencies>
 
+        <!--日志 api 接口-->
         <dependency>
             <groupId>io.github.mangocrisp</groupId>
-            <artifactId>spring-taybct-admin-log</artifactId>
+            <artifactId>api-system</artifactId>
+        </dependency>
+        <!--启动模块-->
+        <dependency>
+            <groupId>io.github.mangocrisp</groupId>
+            <artifactId>spring-taybct-tool-launch</artifactId>
+        </dependency>
+        <!--微服务依赖-->
+        <dependency>
+            <groupId>io.github.mangocrisp</groupId>
+            <artifactId>spring-taybct-tool-cloud</artifactId>
         </dependency>
 
         <dependency>
@@ -31,6 +42,16 @@
             <artifactId>common</artifactId>
         </dependency>
 
+        <!-- mybatis-plus 依赖配置-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+        </dependency>
+        <!--Redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
         <!--jdbc 驱动-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -72,34 +93,42 @@
             <artifactId>druid-spring-boot-3-starter</artifactId>
         </dependency>
 
-        <!--微服务依赖-->
-        <dependency>
-            <groupId>io.github.mangocrisp</groupId>
-            <artifactId>spring-taybct-tool-cloud</artifactId>
-        </dependency>
-
-        <!--es 操作-->
-        <!--<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-            <optional>true</optional>
-            <scope>provided</scope>
-        </dependency>-->
-        <!--es 配置-->
-        <!--<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-        </dependency>-->
         <!--rabbit-mq-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
 
+        <!--安全模块-->
+        <dependency>
+            <groupId>io.github.mangocrisp</groupId>
+            <artifactId>spring-taybct-tool-security</artifactId>
+        </dependency>
+
+        <!--es 配置-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+            <optional>true</optional>
+            <scope>provided</scope>
+        </dependency>
+
         <!--knife4j 增强功能-->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- SpringBoot Actuator 端点通过 JMX 和HTTP 公开暴露给外界访问-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!-- SpringBoot Admin Client 客户端 -->
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
         </dependency>
 
     </dependencies>

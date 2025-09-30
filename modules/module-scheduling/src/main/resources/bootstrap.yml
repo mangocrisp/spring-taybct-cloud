@@ -55,6 +55,9 @@ spring:
           - data-id: ${taybct.config-prefix}-mq.${spring.cloud.nacos.config.file-extension}     # rabbit mq 配置
             group: ${spring.cloud.nacos.config.group}
             refresh: true
+          - data-id: ${taybct.config-prefix}-dubbo.${spring.cloud.nacos.config.file-extension}     # dubbo 配置
+            group: ${spring.cloud.nacos.config.group}
+            refresh: true
 taybct:
   config-prefix: taybct
   tenant:

@@ -77,7 +77,7 @@ public class CryptoUtilsTest {
     }
 
     @Test
-    public void headerAuthorization(){
+    public void headerAuthorization() {
         String clientId = "taybct_pc";
         String secret = "e10adc3949ba59abbe56e057f20f883e";
         System.out.printf("Basic %s", Base64.encode(String.format("%s:%s", clientId, secret)));

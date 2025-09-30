@@ -76,8 +76,9 @@ public class RPCAuthConfig {
     /**
      * 因为用到了 SQLite，类型转换会有问题，这里做一下类型解析器
      * TODO 如果需要兼容 SQLite 就需要加 @Bean 来把解析器注册到 spring 容器中
-     * @param jdbcTemplate 数据源
-     * @param registeredClientRepository  注册
+     *
+     * @param jdbcTemplate               数据源
+     * @param registeredClientRepository 注册
      * @return OAuth2AuthorizationService
      */
     public OAuth2AuthorizationService authorizationService(JdbcTemplate jdbcTemplate

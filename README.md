@@ -56,6 +56,7 @@ java.base/java.lang.reflect=ALL-UNNAMED
 3. 你可以在 modules 模块下看得到这些手动注册的
 
 ```java
+
 @RestController
 public class SysUserController extends SysUserControllerRegister {
 }
@@ -67,4 +68,6 @@ public class SysUserController extends SysUserControllerRegister {
 
 #### 免责声明
 
-本项目所有依赖包都是互联网能找到的，不能保证没有漏洞，源码也不能百分百保证没有 BUG，谁都不能保证，所以，如果用于生产环境，出现了什么问题，本人不负任何责任，但是可以提供友情技术帮助和支持，你可以在项目的 Issues 提出你的问题
+本项目所有依赖包都是互联网能找到的，不能保证没有漏洞，源码也不能百分百保证没有
+BUG，谁都不能保证，所以，如果用于生产环境，出现了什么问题，本人不负任何责任，但是可以提供友情技术帮助和支持，你可以在项目的
+Issues 提出你的问题

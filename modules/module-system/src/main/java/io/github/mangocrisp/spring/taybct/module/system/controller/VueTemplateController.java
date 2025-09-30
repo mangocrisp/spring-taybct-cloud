@@ -1,49 +1,49 @@
 package io.github.mangocrisp.spring.taybct.module.system.controller;
 
-import io.github.mangocrisp.spring.taybct.common.constants.ServeConstants;
-import io.github.mangocrisp.spring.taybct.module.system.domain.VueTemplate;
-import io.github.mangocrisp.spring.taybct.module.system.service.IVueTemplateService;
-import io.github.mangocrisp.spring.taybct.module.system.poi.exp.VueTemplateExpVO;
-import io.github.mangocrisp.spring.taybct.module.system.poi.imp.VueTemplateImpDTO;
-import io.github.mangocrisp.spring.taybct.module.system.dto.add.VueTemplateAddDTO;
-import io.github.mangocrisp.spring.taybct.module.system.dto.update.VueTemplateUpdateDTO;
-import io.github.mangocrisp.spring.taybct.module.system.dto.query.body.VueTemplateQueryBody;
-import io.github.mangocrisp.spring.taybct.tool.core.annotation.ApiLog;
-import io.github.mangocrisp.spring.taybct.tool.core.annotation.WebLog;
-import io.github.mangocrisp.spring.taybct.tool.core.bean.controller.LongKeyConvertibleController;
-import io.github.mangocrisp.spring.taybct.tool.core.constant.OperateType;
-import io.github.mangocrisp.spring.taybct.tool.core.bean.UpdateModel;
-import io.github.mangocrisp.spring.taybct.tool.core.poi.easyexcel.listener.ModelConvertibleListener;
-import io.github.mangocrisp.spring.taybct.tool.core.poi.easyexcel.util.EasyExcelUtil;
-import io.github.mangocrisp.spring.taybct.tool.core.mybatis.support.SqlPageParams;
-import io.github.mangocrisp.spring.taybct.tool.core.result.R;
-import io.github.mangocrisp.spring.taybct.tool.core.util.BeanUtil;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.fastjson2.JSONObject;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import io.github.mangocrisp.spring.taybct.common.constants.ServeConstants;
+import io.github.mangocrisp.spring.taybct.module.system.domain.VueTemplate;
+import io.github.mangocrisp.spring.taybct.module.system.dto.add.VueTemplateAddDTO;
+import io.github.mangocrisp.spring.taybct.module.system.dto.query.body.VueTemplateQueryBody;
+import io.github.mangocrisp.spring.taybct.module.system.dto.update.VueTemplateUpdateDTO;
+import io.github.mangocrisp.spring.taybct.module.system.poi.exp.VueTemplateExpVO;
+import io.github.mangocrisp.spring.taybct.module.system.poi.imp.VueTemplateImpDTO;
+import io.github.mangocrisp.spring.taybct.module.system.service.IVueTemplateService;
+import io.github.mangocrisp.spring.taybct.tool.core.annotation.ApiLog;
+import io.github.mangocrisp.spring.taybct.tool.core.annotation.WebLog;
+import io.github.mangocrisp.spring.taybct.tool.core.bean.UpdateModel;
+import io.github.mangocrisp.spring.taybct.tool.core.bean.controller.LongKeyConvertibleController;
+import io.github.mangocrisp.spring.taybct.tool.core.constant.OperateType;
+import io.github.mangocrisp.spring.taybct.tool.core.mybatis.support.SqlPageParams;
+import io.github.mangocrisp.spring.taybct.tool.core.poi.easyexcel.listener.ModelConvertibleListener;
+import io.github.mangocrisp.spring.taybct.tool.core.poi.easyexcel.util.EasyExcelUtil;
+import io.github.mangocrisp.spring.taybct.tool.core.poi.easypoi.service.IExcelService;
+import io.github.mangocrisp.spring.taybct.tool.core.poi.easypoi.support.ExportTemplate;
+import io.github.mangocrisp.spring.taybct.tool.core.poi.easypoi.util.DBField;
+import io.github.mangocrisp.spring.taybct.tool.core.poi.easypoi.util.DBFieldUtil;
+import io.github.mangocrisp.spring.taybct.tool.core.result.R;
+import io.github.mangocrisp.spring.taybct.tool.core.util.BeanUtil;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.Parameters;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
+import lombok.SneakyThrows;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import io.github.mangocrisp.spring.taybct.tool.core.poi.easypoi.service.IExcelService;
-import io.github.mangocrisp.spring.taybct.tool.core.poi.easypoi.support.ExportTemplate;
-import io.github.mangocrisp.spring.taybct.tool.core.poi.easypoi.util.DBField;
-import io.github.mangocrisp.spring.taybct.tool.core.poi.easypoi.util.DBFieldUtil;
-import jakarta.servlet.http.HttpServletRequest;
-import lombok.SneakyThrows;
 
 import java.io.IOException;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.Set;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
@@ -117,7 +117,7 @@ public class VueTemplateController implements LongKeyConvertibleController<VueTe
     @DeleteMapping("/{id}")
     @ApiLog(title = "根据 id 删除记录", description = "根据 id 删除【前端通用模板】", type = OperateType.DELETE)
     @Parameters({
-        @Parameter(name = "id", description = "主键 id", required = true, in = ParameterIn.PATH)
+            @Parameter(name = "id", description = "主键 id", required = true, in = ParameterIn.PATH)
     })
     public R<? extends VueTemplate> delete(@PathVariable Long id) {
         return LongKeyConvertibleController.super.delete(id);
@@ -161,7 +161,7 @@ public class VueTemplateController implements LongKeyConvertibleController<VueTe
     @Operation(summary = "查看详情")
     @Override
     @Parameters({
-        @Parameter(name = "id", description = "主键 id", required = true, in = ParameterIn.PATH)
+            @Parameter(name = "id", description = "主键 id", required = true, in = ParameterIn.PATH)
     })
     public R<VueTemplate> detail(@PathVariable Long id) {
         return R.data(getBaseService().detail(JSONObject.of("id", id)));

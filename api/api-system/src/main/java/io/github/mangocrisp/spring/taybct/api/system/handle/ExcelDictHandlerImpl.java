@@ -1,10 +1,10 @@
 package io.github.mangocrisp.spring.taybct.api.system.handle;
 
 import cn.afterturn.easypoi.handler.inter.IExcelDictHandler;
-import io.github.mangocrisp.spring.taybct.api.system.domain.SysDict;
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.convert.Convert;
 import com.alibaba.fastjson2.JSONObject;
+import io.github.mangocrisp.spring.taybct.api.system.domain.SysDict;
 import lombok.RequiredArgsConstructor;
 
 import java.util.ArrayList;

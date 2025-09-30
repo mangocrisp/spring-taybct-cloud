@@ -41,6 +41,10 @@
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-httpclient</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-okhttp</artifactId>
+        </dependency>
         <!-- SpringCloud Alibaba Sentinel -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -56,6 +60,12 @@
         <dependency>
             <artifactId>nacos-client</artifactId>
             <groupId>com.alibaba.nacos</groupId>
+        </dependency>
+
+        <!--公共模块（偏业务）-->
+        <dependency>
+            <groupId>io.github.mangocrisp</groupId>
+            <artifactId>common</artifactId>
         </dependency>
 
         <!--easyexcel poi 操作导入导出 excel-->
