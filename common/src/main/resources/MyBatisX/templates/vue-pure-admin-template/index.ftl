@@ -55,7 +55,7 @@
                 class="search-form bg-bg_color w-full pl-8 pt-[12px] overflow-auto"
         >
             <#list tableClass.pkFields as field>
-                <el-form-item label="${field.remark!}" prop="name">
+                <el-form-item label="${field.remark!}" prop="${field.fieldName}">
                     <el-input
                             v-model="queryForm.${field.fieldName}"
                             placeholder="请输入${field.remark!}"
@@ -65,7 +65,7 @@
                 </el-form-item>
             </#list>
             <#list tableClass.baseBlobFields as field>
-                <el-form-item label="${field.remark!}" prop="name">
+                <el-form-item label="${field.remark!}" prop="${field.fieldName}">
                     <#if field.jdbcType=="VARCHAR">
                         <el-input
                                 v-model="queryForm.${field.fieldName}"
