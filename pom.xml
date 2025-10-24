@@ -6,7 +6,7 @@
 
     <groupId>io.github.mangocrisp</groupId>
     <artifactId>spring-taybct-cloud</artifactId>
-    <version>3.2.4</version>
+    <version>3.2.5-final</version>
     <name>Spring TayBct Cloud</name>
     <description>Spring TayBct Cloud</description>
     <packaging>pom</packaging>
